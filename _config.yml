@@ -1,0 +1,13 @@
+title: Conservation Tech Lab
+description: Developing open-source technology and machine learning tools for wildlife conservation and ecological research
+baseurl: ""
+url: "https://conservationtechlab.github.io"
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+# Exclude from processing
+exclude:
+  - README.md
+  - .gitignore
