@@ -5,9 +5,10 @@ url: "https://conservationtechlab.github.io"
 
 # Build settings
 markdown: kramdown
-theme: minima
 
 # Exclude from processing
 exclude:
   - README.md
   - .gitignore
+  - Gemfile
+  - Gemfile.lock
