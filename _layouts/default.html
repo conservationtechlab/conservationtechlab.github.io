@@ -8,6 +8,40 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
+    <header>
+        <div class="container">
+            <h1>🌿 Conservation Tech Lab</h1>
+            <p>Developing open-source technology and machine learning tools for wildlife conservation</p>
+        </div>
+    </header>
+    
+    <nav class="main-nav">
+        <div class="container">
+            <ul class="nav-menu">
+                <li><a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Home</a></li>
+                <li><a href="{{ '/projects' | relative_url }}" {% if page.url contains 'projects' %}class="active"{% endif %}>Projects</a></li>
+                <li><a href="{{ '/people' | relative_url }}" {% if page.url contains 'people' %}class="active"{% endif %}>People</a></li>
+                <li><a href="{{ '/opportunities' | relative_url }}" {% if page.url contains 'opportunities' %}class="active"{% endif %}>Opportunities</a></li>
+            </ul>
+        </div>
+    </nav>
+    
     {{ content }}
+    
+    <footer>
+        <div class="container">
+            <p>
+                <strong>Conservation Tech Lab</strong><br>
+                Open-source technology for wildlife conservation
+            </p>
+            <p style="margin-top: 1rem;">
+                <a href="https://github.com/conservationtechlab" target="_blank" rel="noopener">GitHub</a> | 
+                All projects are open-source and available under their respective licenses
+            </p>
+            <p style="margin-top: 1rem; font-size: 0.9rem; opacity: 0.8;">
+                © 2024 Conservation Tech Lab. Advancing conservation through technology.
+            </p>
+        </div>
+    </footer>
 </body>
 </html>

@@ -4,13 +4,6 @@ title: Home
 description: Developing open-source technology and machine learning tools for wildlife conservation and ecological research
 ---
 
-<header>
-    <div class="container">
-        <h1>🌿 Conservation Tech Lab</h1>
-        <p>Developing open-source technology and machine learning tools for wildlife conservation</p>
-    </div>
-</header>
-
 <section class="hero">
     <div class="container">
         <h2>About the Lab</h2>
@@ -332,19 +325,3 @@ description: Developing open-source technology and machine learning tools for wi
         </div>
     </div>
 </div>
-
-<footer>
-    <div class="container">
-        <p>
-            <strong>Conservation Tech Lab</strong><br>
-            Open-source technology for wildlife conservation
-        </p>
-        <p style="margin-top: 1rem;">
-            <a href="https://github.com/conservationtechlab" target="_blank" rel="noopener">GitHub</a> | 
-            All projects are open-source and available under their respective licenses
-        </p>
-        <p style="margin-top: 1rem; font-size: 0.9rem; opacity: 0.8;">
-            © 2024 Conservation Tech Lab. Advancing conservation through technology.
-        </p>
-    </div>
-</footer>
