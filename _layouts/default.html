@@ -19,9 +19,9 @@
         <div class="container">
             <ul class="nav-menu">
                 <li><a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Home</a></li>
-                <li><a href="{{ '/projects' | relative_url }}" {% if page.url contains 'projects' %}class="active"{% endif %}>Projects</a></li>
-                <li><a href="{{ '/people' | relative_url }}" {% if page.url contains 'people' %}class="active"{% endif %}>People</a></li>
-                <li><a href="{{ '/opportunities' | relative_url }}" {% if page.url contains 'opportunities' %}class="active"{% endif %}>Opportunities</a></li>
+                <li><a href="{{ '/projects' | relative_url }}" {% if page.url == '/projects' or page.url == '/projects/' %}class="active"{% endif %}>Projects</a></li>
+                <li><a href="{{ '/people' | relative_url }}" {% if page.url == '/people' or page.url == '/people/' %}class="active"{% endif %}>People</a></li>
+                <li><a href="{{ '/opportunities' | relative_url }}" {% if page.url == '/opportunities' or page.url == '/opportunities/' %}class="active"{% endif %}>Opportunities</a></li>
             </ul>
         </div>
     </nav>
