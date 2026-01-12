@@ -10,65 +10,126 @@ description: Join the Conservation Tech Lab
         Discover opportunities to join and collaborate with the Conservation Tech Lab.
     </p>
     
-    <div class="hero">
-        <h3> Conservation Technology Fellowship </h3>
-            <p>
+    <div class="opportunities-grid">
+        <!-- Conservation Technology Fellowship -->
+        <div class="opportunity-card">
+            <div class="opportunity-icon">💻</div>
+            <h3>Conservation Technology Fellowship</h3>
+            <div class="opportunity-status status-rolling">Rolling Applications</div>
+            
+            <p class="opportunity-description">
                 The CTL offers fellowships to students in computer science,
                 software engineering, electrical engineering, or a related field. 
                 Fellows contribute to various hardware and software projects that 
-                directly impact wildlife conservation. 
-            <p>
-                The Conservation Technology Fellowship is 300 hours (10 hours 
-                per week for 30-weeks). Fellows will receive a $XXX stipend.
-                Fellowships are on-site at the Beckman Center (Escondido, CA).
-                Fellowships are available multiple times per year on a rolling basis.
+                directly impact wildlife conservation.
             </p>
-            <p>
-                The fellowship is open to upperclass undergraduates and graduate 
-                students. Applicants must be eligible to work in the United States.
-            </p>
+            
+            <div class="opportunity-details">
+                <div class="detail-item">
+                    <strong>⏱️ Duration:</strong> 300 hours (10 hours/week for 30 weeks)
+                </div>
+                <div class="detail-item">
+                    <strong>💰 Stipend:</strong> $XXX
+                </div>
+                <div class="detail-item">
+                    <strong>📍 Location:</strong> Beckman Center (Escondido, CA)
+                </div>
+                <div class="detail-item">
+                    <strong>📅 Availability:</strong> Multiple times per year, rolling basis
+                </div>
+            </div>
+            
+            <div class="opportunity-requirements">
+                <strong>Eligibility:</strong>
+                <ul>
+                    <li>Upperclass undergraduates or graduate students</li>
+                    <li>Background in computer science, software/electrical engineering, or related field</li>
+                    <li>Eligible to work in the United States</li>
+                </ul>
+            </div>
+        </div>
 
-
-        <h3>Conservation Science Summer Fellowship </h3>
-            <p class="important"> Applications Open! Deadline Feb 15, 2026. 
-            <a href="https://science.sandiegozoo.org/opportunities/summer-student-fellowships">Apply Now.</a>
-            </p>
-
-            <p>
+        <!-- Conservation Science Summer Fellowship -->
+        <div class="opportunity-card opportunity-highlight">
+            <div class="opportunity-icon">🔬</div>
+            <h3>Conservation Science Summer Fellowship</h3>
+            <div class="opportunity-status status-open">
+                Applications Open! Deadline Feb 15, 2026
+            </div>
+            
+            <p class="opportunity-description">
                 The Conservation Science Summer Fellowship is a 12-week program 
-                where undergrads work one-on-one with a mentor and hands-on 
+                where undergrads work one-on-one with a mentor and gain hands-on 
                 experience while completing a research project. Fellowships 
                 are based at the Beckman Center (Escondido, CA) unless otherwise 
                 stated.
-            <p>
-            <p>
-                Fellowships are 40 hours per week for 12 weeks. Fellows will 
-                receive an $8,520 stipend. To apply, please visit San Diego Zoo 
-                Wildlife Alliance’s careers page.
+            </p>
+            
+            <div class="opportunity-details">
+                <div class="detail-item">
+                    <strong>⏱️ Duration:</strong> 12 weeks, 40 hours/week
+                </div>
+                <div class="detail-item">
+                    <strong>💰 Stipend:</strong> $8,520
+                </div>
+                <div class="detail-item">
+                    <strong>📍 Location:</strong> Beckman Center (Escondido, CA)
+                </div>
+                <div class="detail-item">
+                    <strong>📅 Start Options:</strong>
+                    <ul style="margin-top: 0.5rem; margin-left: 1.5rem;">
+                        <li>Monday, May 18th to August 7th</li>
+                        <li>Monday, June 22nd to Friday, September 11th</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="opportunity-requirements">
+                <strong>Eligibility:</strong>
+                <ul>
+                    <li>Current undergraduate students officially associated with a college or university</li>
+                    <li>Graduating seniors continuing their education</li>
+                    <li>Eligible to work in the United States</li>
+                </ul>
+            </div>
+            
+            <div class="opportunity-cta">
+                <a href="https://science.sandiegozoo.org/opportunities/summer-student-fellowships" 
+                   class="apply-button" target="_blank" rel="noopener">
+                    Apply Now →
+                </a>
+            </div>
+        </div>
 
-                There are two options for the fellowship duration:
-
-                    Monday, May 18th to August 7th
-                    Monday, June 22nd to Friday, September 11th
+        <!-- Volunteering Opportunities -->
+        <div class="opportunity-card">
+            <div class="opportunity-icon">🤝</div>
+            <h3>Volunteering Opportunities</h3>
+            <div class="opportunity-status status-available">Available</div>
+            
+            <p class="opportunity-description">
+                If you are ineligible for the fellowship programs or unable to 
+                be on-site, we welcome volunteers who are passionate about 
+                conservation technology and want to contribute to our mission.
             </p>
-            <p>
-                Current undergraduate students must be officially associated 
-                with a college or university to be eligible for the fellowship 
-                program. Undergraduates who are currently enrolled in college 
-                meet this criterion, as do graduating seniors who are continuing 
-                their education. Applicants must be eligible to work in the 
-                United States.
-            </p>
-
-        <h3> Volunteering Opportunities </h3>
-            <p>
-                If you are ineligble for the fellowship programs or unable to 
-                be on-site...    
-            </p>
-            <p>
-                If you are interested in volunteering with our lab, please reach out
-                to Holly Davis at hodavis@sdzwa.org. Please be advised that all SDZWA volunteers are 
-                required to commit to 100 volunteer hours per year.
-            </p>
+            
+            <div class="opportunity-details">
+                <div class="detail-item">
+                    <strong>⏱️ Commitment:</strong> 100 volunteer hours per year (SDZWA requirement)
+                </div>
+                <div class="detail-item">
+                    <strong>📍 Location:</strong> Flexible (inquire for details)
+                </div>
+            </div>
+            
+            <div class="opportunity-requirements">
+                <strong>How to Apply:</strong>
+                <p style="margin-top: 0.5rem;">
+                    Please reach out to Holly Davis at 
+                    <a href="mailto:hodavis@sdzwa.org" style="color: #2c5f2d; text-decoration: underline;">hodavis@sdzwa.org</a> 
+                    to discuss volunteering opportunities.
+                </p>
+            </div>
+        </div>
     </div>
 </div>
