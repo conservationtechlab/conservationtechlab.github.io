@@ -1,14 +1,30 @@
 lab:
-  - id: jane-doe
-    name: Jane Doe
-    role: Director
-    photo: /assets/images/people/jane-doe.svg
+  - id: iingram
+    name: Ian Ingram
+    role: PI, Associate Director
+    photo: /assets/images/people/ian-ingram.svg
     bio: "Leads the Conservation Technology Lab. Works on geospatial tools for conservation."
-  - id: alex-smith
-    name: Alex Smith
-    role: Research Scientist
+  - id: kgarwood
+    name: Katie Garwood
+    role: Research Associate
     photo: /assets/images/people/alex-smith.svg
     bio: "Focuses on data-driven conservation workflows and open-source tooling."
+  - id: smandadi
+    name: Sumega Mandadi
+    role: Research Coordinator I
+    photo: /assets/images/people/alex-smith.svg
+    bio: "Focuses on data-driven conservation workflows and open-source tooling."
+  - id: arichardson
+    name: Andy Richardson
+    role: Data Scientist
+    photo: /assets/images/people/alex-smith.svg
+    bio: "Focuses on data-driven conservation workflows and open-source tooling."
+  - id: tswanson
+    name: Kyra Swanson
+    role: Research Coordinator II
+    photo: /assets/images/people/alex-smith.svg
+    bio: "Focuses on data-driven conservation workflows and open-source tooling."
+  
 
 fellows:
   - id: rita-lee
@@ -35,5 +51,12 @@ former_fellows:
   - id: pat-owen
     name: Pat Owen
     role: Fellow (2019-2020)
-    photo: /assets/images/people/pat-owen.svg
-    bio: "Worked on wildfire risk mapping and tools adoption."
+  - id: pat-owen
+    name: Pat Owen
+    role: Fellow (2019-2020)
+  - id: pat-owen
+    name: Pat Owen
+    role: Fellow (2019-2020)
+  - id: pat-owen
+    name: Pat Owen
+    role: Fellow (2019-2020)

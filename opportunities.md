@@ -26,7 +26,7 @@ description: Join the Conservation Tech Lab
             
             <div class="opportunity-details">
                 <div class="detail-item">
-                    <strong>⏱️ Duration:</strong> 300 hours (10 hours/week for 30 weeks)
+                    <strong>⏱️ Duration:</strong> 300 hours (30 weeks, 10 hours/week)
                 </div>
                 <div class="detail-item">
                     <strong>💰 Stipend:</strong> $XXX
@@ -54,7 +54,8 @@ description: Join the Conservation Tech Lab
             <div class="opportunity-icon">🔬</div>
             <h3>Conservation Science Summer Fellowship</h3>
             <div class="opportunity-status status-open">
-                Applications Open! Deadline Feb 15, 2026
+                Applications Open!<br>
+                Deadline Feb 15, 2026
             </div>
             
             <p class="opportunity-description">
