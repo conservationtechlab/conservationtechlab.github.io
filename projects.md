@@ -10,17 +10,10 @@ description: Open-source conservation technology projects
         Explore our open-source conservation technology projects.
     </p>
 
-    <div class="hero">
-        <p>
-            This page showcases our open-source projects across sensors, computer vision, and acoustic monitoring. Click into each section to learn more.
-        </p>
-    </div>
-
     <!-- Bioacoustics (image on left) -->
+
+
     <section class="project-section project-section--media-left" id="bioacoustics" aria-labelledby="bioacoustics-title">
-      <div class="project-media">
-        <img src="/assets/images/projects/bioacoustics.jpg" alt="Bioacoustics monitoring" />
-      </div>
       <div class="project-text" aria-labelledby="bioacoustics-title">
         <h3 id="bioacoustics-title">Bioacoustics</h3>
         <p class="muted">
