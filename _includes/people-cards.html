@@ -1,12 +1,14 @@
 <div class="people-section">
-  {% if include.title %}
+  {% if include.title and include.title != "" %}
   <h3 class="people-section__title">{{ include.title }}</h3>
   {% endif %}
   <div class="people-grid">
     {% for person in include.collection %}
     <article class="person-card" id="{{ person.id }}">
       <div class="person-card__photo">
-        {% if person.photo %}
+        {% if include.title == "Former Members" %}
+          {%- comment -%}Leave photo container empty for former members{%- endcomment -%}
+        {% elsif person.photo %}
           <img src="{{ person.photo }}" alt="Photo of {{ person.name }}">
         {% else %}
           <div class="person-card__placeholder" aria-hidden="true"></div>
