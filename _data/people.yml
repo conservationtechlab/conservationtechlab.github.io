@@ -56,13 +56,11 @@ fellows:
 volunteers:
   - id: robert-krenz
     name: Robert Krenz
-    role: Volunteer
     photo: /assets/images/people/alex-smith.svg
     bio: "Supports community engagement and documentation."
 
   - id: barry-dorr
     name: Barry Dorr
-    role: Volunteer
     photo: /assets/images/people/alex-smith.svg
     bio: "Supports community engagement and documentation."
 

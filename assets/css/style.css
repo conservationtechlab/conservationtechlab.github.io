@@ -168,6 +168,49 @@ header p {
     gap: 0.3rem;
 }
 
+.project-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  align-items: flex-start;
+  margin-bottom: 2.5rem;
+}
+
+.project-media {
+  flex: 0 0 38%;
+  max-width: 420px;
+}
+
+.project-media img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+/* Text column */
+.project-text {
+  flex: 1 1 50%;
+  min-width: 220px;
+}
+
+/* Reverse on right-media sections */
+.project-section--media-right {
+  flex-direction: row-reverse;
+}
+
+/* Stack vertically on small screens */
+@media (max-width: 768px) {
+  .project-section {
+    flex-direction: column;
+  }
+  .project-media, .project-text {
+    flex: 1 1 100%;
+    max-width: none;
+  }
+}
+
 .language {
     background: #e8f5e9;
     color: #215732;
