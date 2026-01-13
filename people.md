@@ -17,11 +17,11 @@ description: Meet the Conservation Tech Lab team
 
   {% comment %} Render the lead (Ian Ingram) on its own row {% endcomment %}
   {% assign head = site.data.people.lab | where: "id", "iingram" %}
-  {% include people-cards.html collection=head title="" %}
+  {% include people-cards.html collection=head title="Lab" %}
 
   {% comment %} Render the rest of the lab members {% endcomment %}
   {% assign lab_others = site.data.people.lab | where_exp: "person", "person.id != 'iingram'" %}
-  {% include people-cards.html collection=lab_others title="Lab" %}
+  {% include people-cards.html collection=lab_others title="" %}
 
   {% include people-cards.html collection=site.data.people.fellows title="Fellows" %}
   {% include people-cards.html collection=site.data.people.volunteers title="Volunteers" %}

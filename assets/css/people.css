@@ -8,12 +8,18 @@
   margin-bottom: 1rem;
   font-weight: 600;
 }
+
+.people-section__single {
+  display: flex;
+  width: minmax(220px, 1fr);
+  justify-content: center;
+}
+
 .people-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 1.25rem;
   margin: 1rem 0 2rem;
-  justify-content: center;
 }
 .person-card {
   background: var(--card-bg, #fff);
