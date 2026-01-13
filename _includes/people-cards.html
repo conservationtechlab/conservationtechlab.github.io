@@ -7,7 +7,7 @@
     <article class="person-card" id="{{ person.id }}">
       <div class="person-card__photo">
         {% if person.photo %}
-          <img src="{{ person.photo }}" alt="{{ person.name }}">
+          <img src="{{ person.photo }}" alt="Photo of {{ person.name }}">
         {% else %}
           <div class="person-card__placeholder" aria-hidden="true"></div>
         {% endif %}
