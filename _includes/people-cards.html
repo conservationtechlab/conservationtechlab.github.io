@@ -1,5 +1,5 @@
 <div class="people-section">
-  {% if include.title %}
+  {% if include.title and include.title != "" %}
   <h3 class="people-section__title">{{ include.title }}</h3>
   {% endif %}
   <div class="people-grid">
