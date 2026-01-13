@@ -15,13 +15,16 @@ description: Meet the Conservation Tech Lab team
     Adjust ordering by editing _data/people.yml
   {% endcomment %}
 
+  {% comment %} Render the lead (Ian Ingram) on its own row {% endcomment %}
   {% assign head = site.data.people.lab | where: "id", "iingram" %}
-  {% include people-cards.html collection=head title="Lab" %}
+  {% include people-cards.html collection=head title="" %}
+
+  {% comment %} Render the rest of the lab members {% endcomment %}
   {% assign lab_others = site.data.people.lab | where_exp: "person", "person.id != 'iingram'" %}
-  {% include people-cards.html collection=lab_others title="" %}
+  {% include people-cards.html collection=lab_others title="Lab" %}
+
   {% include people-cards.html collection=site.data.people.fellows title="Fellows" %}
   {% include people-cards.html collection=site.data.people.volunteers title="Volunteers" %}
   {% include people-cards.html collection=site.data.people.partners title="Partners" %}
   {% include people-cards.html collection=site.data.people.former_members title="Former Members" %}
 </div>
-
