@@ -3,7 +3,7 @@ lab:
     name: Ian Ingram
     role: PI, Associate Director
     photo: /assets/images/people/alex-smith.svg
-    bio: "Leads the Conservation Technology Lab. Works on geospatial tools for conservation."
+    bio: "Leads the Conservation Technology Lab."
   - id: kgarwood
     name: Katie Garwood
     role: Research Associate
@@ -12,6 +12,11 @@ lab:
   - id: smandadi
     name: Sumega Mandadi
     role: Research Coordinator I
+    photo: /assets/images/people/alex-smith.svg
+    bio: "Focuses on data-driven conservation workflows and open-source tooling."
+  - id: vporter
+    name: Valerie Porter
+    role: Postdoctoral Researcher
     photo: /assets/images/people/alex-smith.svg
     bio: "Focuses on data-driven conservation workflows and open-source tooling."
   - id: arichardson
@@ -55,6 +60,12 @@ volunteers:
     photo: /assets/images/people/alex-smith.svg
     bio: "Supports community engagement and documentation."
 
+  - id: barry-dorr
+    name: Barry Dorr
+    role: Volunteer
+    photo: /assets/images/people/alex-smith.svg
+    bio: "Supports community engagement and documentation."
+
 partners:
   - id: partner-org
     name: Partner Org
@@ -63,15 +74,107 @@ partners:
     bio: "Long-term partner on spatial data interoperability projects."
 
 former_members:
-  - id: pat-owen
-    name: Pat Owen
-    role: CTL Fellow (2019-2020)
-  - id: pat-owen
-    name: Pat Owen
-    role: CTL Fellow (2019-2020)
-  - id: pat-owen
+
+  - id: jenasis-campbell
+    name: Jenasis Campbell
+    role: Summer Fellow (2025)
+
+  - id: grace-coleman
+    name: Grace Coleman
+    role: Summer Fellow (2025)
+
+  - id: connor-st-john
+    name: Connor St. John
+    role: Summer Fellow (2025)
+
+  - id: neel-raj
+    name: Neel Raj
+    role: CTL Fellow (2025)
+
+  - id: saruni-jackson
+    name: Saruni Jackson
+    role: CTL Kenya Fellow (2024-2025)
+
+  - id: mani-amani
+    name: Mani Amani
+    role: CTL Kenya Fellow (2024-2025)
+
+  - id: rishi-gupta
+    name: Rishi Gupta
+    role: CTL Fellow (2024-2025)
+
+  - id: Sumega Mandadi
+    name: Sumega Mandadi
+    role: CTL Fellow (2024-2025)
+
+  - id: tongfei-yang
+    name: Tongfei Yang
+    role: CTL Fellow (2024-2025)
+
+  - id: andre-stankiewicz
+    name: Andre Stankiewicz
+    role: Summer Fellow (2024)
+
+  - id: unduwap-kandage-don
+    name: Unduwap Kandage-don 
+    role: CTL Fellow (2024)
+
+  - id: ayush-singh
+    name: Ayush Singh
+    role: CTL Fellow (2024)
+
+  - id: kayleigh-wilkes
+    name: Kayleigh Wilkes
+    role: CTL Fellow (2024)
+
+  - id: yuhe-li
+    name: Yuhe (Aslan) Li
+    role: Summer Fellow (2023)
+
+  - id: eric-escareno
+    name: Eric Escareno
+    role: CTL Fellow (2023)
+
+  - id: oi-mahawong
+    name: Suphapon (Oi) Mahawong
+    role: CTL Fellow (2023)
+
+  - id: srinidhi-yerabati
+    name: Srinidhi Yerabati
+    role: CTL Fellow (2023)  
+
+  - id: kaitlyn-chu
+    name: Kaitlyn Chu
+    role: CTL Fellow (2022-2023)
+
+  - id: jazmin-pantoja
+    name: Jazmin Pantoja
+    role: CTL Fellow (2022-2023)
+
+  - id: yuerou-tang
+    name: Yuerou Tang
+    role: Summer Fellow (2022)
+
+  - id: trent-moca
+    name: Trent Moca
+    role: CTL Fellow (2022)
+
+  - id: edgar-navarro
+    name: Edgar Navarro
+    role: CTL Fellow (2022)
+
+  - id: elias-martinez
+    name: Elias Martinez
+    role: CTL Fellow (2021-2022)
+
+  - id: josh-kessler
+    name: Josh Kessler 
+    role: Volunteer
+
+  - id: jonathan-kohler
     name: Jonathan Kohler 
     role: Volunteer
-  - id: pat-owen
-    name: Josh Kessler 
+
+  - id: jared-macshane
+    name: Jared MacShane 
     role: Volunteer
