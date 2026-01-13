@@ -2,7 +2,7 @@ lab:
   - id: iingram
     name: Ian Ingram
     role: PI, Associate Director
-    photo: /assets/images/people/ian-ingram.svg
+    photo: /assets/images/people/alex-smith.svg
     bio: "Leads the Conservation Technology Lab. Works on geospatial tools for conservation."
   - id: kgarwood
     name: Katie Garwood
@@ -30,29 +30,29 @@ fellows:
   - id: siddhi-amilkanthwar
     name: Siddhi Amilkanthwar 
     role: CTL Fellow (2025-2026)
-    photo: /assets/images/people/siddhi-amilkanthwar.svg
+    photo: /assets/images/people/alex-smith.svg
     bio: "Fellow working on species distribution modelling."
   - id: chandrima-das
     name: Chandrima Das
     role: CTL Fellow (2025-2026)
-    photo: /assets/images/people/chandrima-das.svg
+    photo: /assets/images/people/alex-smith.svg
     bio: "Fellow working on species distribution modelling."
   - id: alvaro-merida
     name: Alvaro Espinoza Merida
     role: CTL Fellow (2025-2026)
-    photo: /assets/images/people/alvaro-merida.svg
+    photo: /assets/images/people/alex-smith.svg
     bio: "Fellow working on species distribution modelling."
   - id: sean-perry
     name: Sean Perry
     role: CTL Fellow (2025-2026)
-    photo: /assets/images/people/sean-perry.svg
+    photo: /assets/images/people/alex-smith.svg
     bio: "Fellow working on species distribution modelling."
 
 volunteers:
   - id: robert-krenz
     name: Robert Krenz
     role: Volunteer
-    photo: /assets/images/people/robert-krenz.svg
+    photo: /assets/images/people/alex-smith.svg
     bio: "Supports community engagement and documentation."
 
 partners:
