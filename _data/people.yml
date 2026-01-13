@@ -1,0 +1,39 @@
+lab:
+  - id: jane-doe
+    name: Jane Doe
+    role: Director
+    photo: /assets/images/people/jane-doe.svg
+    bio: "Leads the Conservation Technology Lab. Works on geospatial tools for conservation."
+  - id: alex-smith
+    name: Alex Smith
+    role: Research Scientist
+    photo: /assets/images/people/alex-smith.svg
+    bio: "Focuses on data-driven conservation workflows and open-source tooling."
+
+fellows:
+  - id: rita-lee
+    name: Rita Lee
+    role: Fellow (2025)
+    photo: /assets/images/people/rita-lee.svg
+    bio: "Fellow working on species distribution modelling."
+
+volunteers:
+  - id: sam-chen
+    name: Sam Chen
+    role: Volunteer
+    photo: /assets/images/people/sam-chen.svg
+    bio: "Supports community engagement and documentation."
+
+partners:
+  - id: partner-org
+    name: Partner Org
+    role: Organizational Partner
+    photo: /assets/images/people/partner-org.svg
+    bio: "Long-term partner on spatial data interoperability projects."
+
+former_fellows:
+  - id: pat-owen
+    name: Pat Owen
+    role: Fellow (2019-2020)
+    photo: /assets/images/people/pat-owen.svg
+    bio: "Worked on wildfire risk mapping and tools adoption."
