@@ -27,17 +27,32 @@ lab:
   
 
 fellows:
-  - id: rita-lee
-    name: Rita Lee
-    role: Fellow (2025)
-    photo: /assets/images/people/rita-lee.svg
+  - id: siddhi-amilkanthwar
+    name: Siddhi Amilkanthwar 
+    role: CTL Fellow (2025-2026)
+    photo: /assets/images/people/siddhi-amilkanthwar.svg
+    bio: "Fellow working on species distribution modelling."
+  - id: chandrima-das
+    name: Chandrima Das
+    role: CTL Fellow (2025-2026)
+    photo: /assets/images/people/chandrima-das.svg
+    bio: "Fellow working on species distribution modelling."
+  - id: alvaro-merida
+    name: Alvaro Espinoza Merida
+    role: CTL Fellow (2025-2026)
+    photo: /assets/images/people/alvaro-merida.svg
+    bio: "Fellow working on species distribution modelling."
+  - id: sean-perry
+    name: Sean Perry
+    role: CTL Fellow (2025-2026)
+    photo: /assets/images/people/sean-perry.svg
     bio: "Fellow working on species distribution modelling."
 
 volunteers:
-  - id: sam-chen
-    name: Sam Chen
+  - id: robert-krenz
+    name: Robert Krenz
     role: Volunteer
-    photo: /assets/images/people/sam-chen.svg
+    photo: /assets/images/people/robert-krenz.svg
     bio: "Supports community engagement and documentation."
 
 partners:
@@ -47,16 +62,16 @@ partners:
     photo: /assets/images/people/partner-org.svg
     bio: "Long-term partner on spatial data interoperability projects."
 
-former_fellows:
+former_members:
   - id: pat-owen
     name: Pat Owen
-    role: Fellow (2019-2020)
+    role: CTL Fellow (2019-2020)
   - id: pat-owen
     name: Pat Owen
-    role: Fellow (2019-2020)
+    role: CTL Fellow (2019-2020)
   - id: pat-owen
-    name: Pat Owen
-    role: Fellow (2019-2020)
+    name: Jonathan Kohler 
+    role: Volunteer
   - id: pat-owen
-    name: Pat Owen
-    role: Fellow (2019-2020)
+    name: Josh Kessler 
+    role: Volunteer
