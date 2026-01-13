@@ -5,14 +5,20 @@ description: Meet the Conservation Tech Lab team
 ---
 
 <div class="container">
-    <h2 class="section-title">People</h2>
-    <p style="text-align: center; color: #666; margin-bottom: 2rem;">
-        Meet the team behind the Conservation Tech Lab.
-    </p>
-    
-    <div class="hero">
-        <p>
-            This page will introduce our team members and contributors. Check back soon for more information!
-        </p>
-    </div>
+  <h2 class="section-title">People</h2>
+  <p style="text-align: center; color: #666; margin-bottom: 2rem;">
+    Meet the people who make the Conservation Technology Lab possible: staff, fellows, volunteers, partners, and alumni.
+  </p>
+
+  {% comment %}
+    For each group below we call the include that renders a responsive grid of cards.
+    Adjust ordering by editing _data/people.yml
+  {% endcomment %}
+
+  {% include people-cards.html collection=site.data.people.lab title="Lab" %}
+  {% include people-cards.html collection=site.data.people.fellows title="Fellows" %}
+  {% include people-cards.html collection=site.data.people.volunteers title="Volunteers" %}
+  {% include people-cards.html collection=site.data.people.partners title="Partners" %}
+  {% include people-cards.html collection=site.data.people.former_fellows title="Former Fellows" %}
 </div>
+
