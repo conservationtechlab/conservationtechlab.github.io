@@ -15,7 +15,6 @@ description: Developing open-source technology and machine learning tools for wi
             All of our projects are open-source, promoting collaboration and knowledge sharing within the conservation technology community.
             We focus on practical, field-deployable solutions that help researchers and conservationists better understand and protect wildlife.
         </p>
-        
         <div class="stats">
             <div class="stat-item">
                 <div class="stat-number">24</div>
@@ -35,7 +34,6 @@ description: Developing open-source technology and machine learning tools for wi
 
 <div class="container">
     <h2 class="section-title">Featured Projects</h2>
-    
     <div class="projects-grid">
         <!-- Animl R -->
         <div class="project-card">
@@ -53,7 +51,6 @@ description: Developing open-source technology and machine learning tools for wi
                 <span class="topic-tag">machine-learning</span>
             </div>
         </div>
-
         <!-- Animl Python -->
         <div class="project-card">
             <h3><a href="https://github.com/conservationtechlab/animl-py" target="_blank" rel="noopener">animl-py</a></h3>
@@ -66,7 +63,6 @@ description: Developing open-source technology and machine learning tools for wi
                 <span>🍴 6 forks</span>
             </div>
         </div>
-
         <!-- ScrubCam -->
         <div class="project-card">
             <h3><a href="https://github.com/conservationtechlab/scrubcam" target="_blank" rel="noopener">scrubcam</a></h3>
@@ -78,7 +74,6 @@ description: Developing open-source technology and machine learning tools for wi
                 <span>⭐ 6</span>
             </div>
         </div>
-
         <!-- DenCam -->
         <div class="project-card">
             <h3><a href="https://github.com/conservationtechlab/dencam" target="_blank" rel="noopener">dencam</a></h3>
@@ -91,7 +86,6 @@ description: Developing open-source technology and machine learning tools for wi
                 <span>🍴 2 forks</span>
             </div>
         </div>
-
         <!-- Whoot -->
         <div class="project-card">
             <h3><a href="https://github.com/conservationtechlab/whoot" target="_blank" rel="noopener">whoot</a></h3>
@@ -103,7 +97,6 @@ description: Developing open-source technology and machine learning tools for wi
                 <span>⭐ 5</span>
             </div>
         </div>
-
         <!-- CamML -->
         <div class="project-card">
             <h3><a href="https://github.com/conservationtechlab/camml" target="_blank" rel="noopener">camml</a></h3>
@@ -115,7 +108,6 @@ description: Developing open-source technology and machine learning tools for wi
                 <span>⭐ 5</span>
             </div>
         </div>
-
         <!-- MatchyPatchy -->
         <div class="project-card">
             <h3><a href="https://github.com/conservationtechlab/matchypatchy" target="_blank" rel="noopener">matchypatchy</a></h3>
@@ -127,7 +119,6 @@ description: Developing open-source technology and machine learning tools for wi
                 <span>⭐ 5</span>
             </div>
         </div>
-
         <!-- CougarVision -->
         <div class="project-card">
             <h3><a href="https://github.com/conservationtechlab/cougarvision" target="_blank" rel="noopener">cougarvision</a></h3>
@@ -139,7 +130,6 @@ description: Developing open-source technology and machine learning tools for wi
                 <span>⭐ 4</span>
             </div>
         </div>
-
         <!-- ScrubDash -->
         <div class="project-card">
             <h3><a href="https://github.com/conservationtechlab/scrubdash" target="_blank" rel="noopener">scrubdash</a></h3>
@@ -151,7 +141,6 @@ description: Developing open-source technology and machine learning tools for wi
                 <span>⭐ 3</span>
             </div>
         </div>
-
         <!-- YoctoDetector -->
         <div class="project-card">
             <h3><a href="https://github.com/conservationtechlab/yoctodetector" target="_blank" rel="noopener">yoctodetector</a></h3>
@@ -164,7 +153,6 @@ description: Developing open-source technology and machine learning tools for wi
                 <span>🍴 1 fork</span>
             </div>
         </div>
-
         <!-- TinyScrubCam -->
         <div class="project-card">
             <h3><a href="https://github.com/conservationtechlab/tinyscrubcam" target="_blank" rel="noopener">tinyscrubcam</a></h3>
@@ -176,7 +164,6 @@ description: Developing open-source technology and machine learning tools for wi
                 <span>⭐ 3</span>
             </div>
         </div>
-
         <!-- Gnatcatcher -->
         <div class="project-card">
             <h3><a href="https://github.com/conservationtechlab/gnatcatcher" target="_blank" rel="noopener">gnatcatcher</a></h3>
@@ -189,7 +176,6 @@ description: Developing open-source technology and machine learning tools for wi
                 <span>🍴 1 fork</span>
             </div>
         </div>
-
         <!-- CameraBase R -->
         <div class="project-card">
             <h3><a href="https://github.com/conservationtechlab/camerabase-r" target="_blank" rel="noopener">camerabase-r</a></h3>
@@ -201,7 +187,6 @@ description: Developing open-source technology and machine learning tools for wi
                 <span>⭐ 2</span>
             </div>
         </div>
-
         <!-- SageRanger -->
         <div class="project-card">
             <h3><a href="https://github.com/conservationtechlab/sageranger" target="_blank" rel="noopener">sageranger</a></h3>
@@ -213,7 +198,6 @@ description: Developing open-source technology and machine learning tools for wi
                 <span>⭐ 2</span>
             </div>
         </div>
-
         <!-- Otolith -->
         <div class="project-card">
             <h3><a href="https://github.com/conservationtechlab/otolith" target="_blank" rel="noopener">otolith</a></h3>
@@ -226,18 +210,6 @@ description: Developing open-source technology and machine learning tools for wi
                 <span>🍴 1 fork</span>
             </div>
         </div>
-
-        <!-- DenCam Hardware -->
-        <div class="project-card">
-            <h3><a href="https://github.com/conservationtechlab/dencam_hardware" target="_blank" rel="noopener">dencam_hardware</a></h3>
-            <p class="project-description">
-                The mechanical, electrical, and electronic design of DenCam devices, presently including the Fenrir (MiniDenCam OG) and Mimir systems.
-            </p>
-            <div class="project-meta">
-                <span>⭐ 1</span>
-            </div>
-        </div>
-
         <!-- CameraBase -->
         <div class="project-card">
             <h3><a href="https://github.com/conservationtechlab/camerabase" target="_blank" rel="noopener">camerabase</a></h3>
@@ -249,7 +221,6 @@ description: Developing open-source technology and machine learning tools for wi
                 <span>⭐ 1</span>
             </div>
         </div>
-
         <!-- HeatSeek -->
         <div class="project-card">
             <h3><a href="https://github.com/conservationtechlab/heatseek" target="_blank" rel="noopener">heatseek</a></h3>
@@ -261,7 +232,6 @@ description: Developing open-source technology and machine learning tools for wi
                 <span>⭐ 1</span>
             </div>
         </div>
-
         <!-- Pappus -->
         <div class="project-card">
             <h3><a href="https://github.com/conservationtechlab/pappus" target="_blank" rel="noopener">pappus</a></h3>
@@ -272,19 +242,7 @@ description: Developing open-source technology and machine learning tools for wi
                 <span class="language">Python</span>
             </div>
         </div>
-
-        <!-- Articulus -->
-        <div class="project-card">
-            <h3><a href="https://github.com/conservationtechlab/articulus" target="_blank" rel="noopener">articulus</a></h3>
-            <p class="project-description">
-                CV quantification of joint mobility in elephants using computer vision techniques to assess animal health and movement.
-            </p>
-            <div class="project-meta">
-                <span class="language">Jupyter Notebook</span>
-            </div>
-        </div>
     </div>
-
     <h2 class="section-title">Technology Focus Areas</h2>
     <div class="projects-grid">
         <div class="project-card">

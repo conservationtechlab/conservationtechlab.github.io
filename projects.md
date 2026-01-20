@@ -9,10 +9,7 @@ description: Open-source conservation technology projects
     <p style="text-align: center; color: #666; margin-bottom: 2rem;">
         Explore our open-source conservation technology projects.
     </p>
-
     <!-- Bioacoustics (image on left) -->
-
-
     <section class="project-section project-section--media-left" id="bioacoustics" aria-labelledby="bioacoustics-title">
       <div class="project-text" aria-labelledby="bioacoustics-title">
         <h3 id="bioacoustics-title">Bioacoustics</h3>
@@ -24,7 +21,6 @@ description: Open-source conservation technology projects
         </p>
       </div>
     </section>
-
     <!-- Camera traps (image on right) -->
     <section class="project-section project-section--media-right" id="camera-traps" aria-labelledby="camera-traps-title">
       <div class="project-media">
@@ -40,7 +36,6 @@ description: Open-source conservation technology projects
         </p>
       </div>
     </section>
-
     <!-- Re-identification (image on left) -->
     <section class="project-section project-section--media-left" id="re-identification" aria-labelledby="re-identification-title">
       <div class="project-media">
@@ -56,7 +51,6 @@ description: Open-source conservation technology projects
         </p>
       </div>
     </section>
-
     <!-- Environmental sensors (image on right) -->
     <section class="project-section project-section--media-right" id="environmental-sensors" aria-labelledby="environmental-sensors-title">
       <div class="project-media">
@@ -72,5 +66,4 @@ description: Open-source conservation technology projects
         </p>
       </div>
     </section>
-
 </div>
