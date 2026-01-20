@@ -9,6 +9,23 @@ description: Open-source conservation technology projects
     <p style="text-align: center; color: #666; margin-bottom: 2rem;">
         Explore our open-source conservation technology projects.
     </p>
+    <!-- Camera traps (image on right) -->
+    <section class="project-section project-section--media-right" id="camera-traps" aria-labelledby="camera-traps-title">
+      <div class="project-media">
+        <img src="/assets/images/projects/camera-traps.jpg" alt="Camera trap image" />
+      </div>
+      <div class="project-text" aria-labelledby="camera-traps-title">
+        <h3 id="camera-traps-title" tabindex="-1">Camera traps</h3>
+        <p class="muted">
+          Open-source tooling for camera-trap imagery: ingestion, annotation, automated detection and species classification, and reproducible analysis pipelines.
+        </p>
+        <p>
+          Work focuses on robust ingestion from diverse camera systems, annotation workflows that speed labeling, and models that detect animals and estimate abundance. We also prioritize reproducible notebooks and deployment-ready detection pipelines.
+        </p>
+      </div>
+    </section>
+
+
     <!-- Bioacoustics (image on left) -->
     <section class="project-section project-section--media-left" id="bioacoustics" aria-labelledby="bioacoustics-title">
       <div class="project-text" aria-labelledby="bioacoustics-title">
@@ -21,21 +38,7 @@ description: Open-source conservation technology projects
         </p>
       </div>
     </section>
-    <!-- Camera traps (image on right) -->
-    <section class="project-section project-section--media-right" id="camera-traps" aria-labelledby="camera-traps-title">
-      <div class="project-media">
-        <img src="/assets/images/projects/camera-traps.jpg" alt="Camera trap image" />
-      </div>
-      <div class="project-text" aria-labelledby="camera-traps-title">
-        <h3 id="camera-traps-title">Camera traps</h3>
-        <p class="muted">
-          Open-source tooling for camera-trap imagery: ingestion, annotation, automated detection and species classification, and reproducible analysis pipelines.
-        </p>
-        <p>
-          Work focuses on robust ingestion from diverse camera systems, annotation workflows that speed labeling, and models that detect animals and estimate abundance. We also prioritize reproducible notebooks and deployment-ready detection pipelines.
-        </p>
-      </div>
-    </section>
+    
     <!-- Re-identification (image on left) -->
     <section class="project-section project-section--media-left" id="re-identification" aria-labelledby="re-identification-title">
       <div class="project-media">
