@@ -131,6 +131,13 @@ header p {
     box-shadow: 0 4px 16px rgba(0,0,0,0.15);
 }
 
+.card-inner {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
 .project-card h3 {
     color: #215732;
     font-size: 1.4rem;

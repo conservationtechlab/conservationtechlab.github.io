@@ -35,16 +35,17 @@ description: Developing open-source technology and machine learning tools for wi
 <div class="container">
     <h2 class="section-title">Research Focus Areas</h2>
     <div class="projects-grid">
-        <a href="{{ '/projects/' | relative_url}}#camera-traps-title">
-            <div class="project-card">
-                <h3>🎥 Camera Trap AI</h3>
+        <a href="{{ '/projects/' | relative_url}}#camera-traps" class="project-card">
+            <div class="card-inner">
+                <h3>📷 Camera Trap AI</h3>
                 <p class="project-description">
                     Machine learning models and tools for automatically classifying and analyzing wildlife in camera trap images and videos.
                 </p>
             </div>
         </a>
-        <div class="project-card">
-            <h3>📡 Edge Computing</h3>
+        <a href="{{ '/projects/' | relative_url}}#camera-traps" class="project-card">
+        <div class="card-inner">
+            <h3>📡 Edge AI</h3>
             <p class="project-description">
                 Field-deployable devices with on-device AI processing for real-time wildlife detection and monitoring in remote locations.
             </p>
