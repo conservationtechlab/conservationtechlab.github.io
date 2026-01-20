@@ -1,48 +1,17 @@
 <div class="people-section">
-  {% if include.title and include.title != "" %}
+  {% if include.title %}
   <h3 class="people-section__title">{{ include.title }}</h3>
   {% endif %}
-
-  {% comment %}
-    Single-item (lead) layout: include.title == "" => center the card(s).
-    Grid layout: default for other groups.
-  {% endcomment %}
-  {% if include.title == "" %}
-  <div class="people-section__single">
-    {% for person in include.collection %}
-    <article class="person-card" id="{{ person.id }}">
-      <div class="person-card__photo">
-        {% if include.title == "Former Members" %}
-          {% comment %} intentionally left blank for Former Members: no <img> or placeholder {% endcomment %}
-        {% else %}
-          {% if person.photo %}
-            <img src="{{ person.photo }}" alt="Photo of {{ person.name }}">
-          {% else %}
-            <div class="person-card__placeholder" aria-hidden="true"></div>
-          {% endif %}
-        {% endif %}
-      </div>
-      <div class="person-card__content">
-        <h3 class="person-card__name">{{ person.name }}</h3>
-        {% if person.role %}<p class="person-card__role">{{ person.role }}</p>{% endif %}
-        {% if person.bio %}<p class="person-card__bio">{{ person.bio }}</p>{% endif %}
-      </div>
-    </article>
-    {% endfor %}
-  </div>
-  {% else %}
   <div class="people-grid">
     {% for person in include.collection %}
     <article class="person-card" id="{{ person.id }}">
       <div class="person-card__photo">
         {% if include.title == "Former Members" %}
-          {% comment %} intentionally left blank for Former Members: no <img> or placeholder {% endcomment %}
+          {%- comment -%}Leave photo container empty for former members{%- endcomment -%}
+        {% elsif person.photo %}
+          <img src="{{ person.photo }}" alt="Photo of {{ person.name }}">
         {% else %}
-          {% if person.photo %}
-            <img src="{{ person.photo }}" alt="Photo of {{ person.name }}">
-          {% else %}
-            <div class="person-card__placeholder" aria-hidden="true"></div>
-          {% endif %}
+          <div class="person-card__placeholder" aria-hidden="true"></div>
         {% endif %}
       </div>
       <div class="person-card__content">
@@ -53,5 +22,4 @@
     </article>
     {% endfor %}
   </div>
-  {% endif %}
 </div>
