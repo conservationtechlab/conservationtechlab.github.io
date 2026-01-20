@@ -35,44 +35,42 @@ description: Developing open-source technology and machine learning tools for wi
 <div class="container">
     <h2 class="section-title">Research Focus Areas</h2>
     <div class="projects-grid">
-        <a href="{{ '/projects/' | relative_url}}#camera-traps" class="project-card">
-            <div>
-                <h3>📷 Camera Trap AI</h3>
-                <p class="project-description">
-                    Machine learning models and tools for automatically classifying and analyzing wildlife in camera trap images and videos.
-                </p>
-            </div>
-        </a>
-        <div class="project-card">
-            <h3>📡 Edge AI</h3>
+        <a href="{{ '/projects' | relative_url}}#camera-traps" class="project-card"><div>
+            <h3>📷 Camera Trap AI</h3>
             <p class="project-description">
-                Field-deployable devices with on-device AI processing for real-time wildlife detection and monitoring in remote locations.
+                Machine learning models and tools for automatically classifying and analyzing wildlife in camera trap images and videos.
             </p>
-        </div>
-        <div class="project-card"> 
-            <h3>🔊 Bioacoustics</h3>
+        </div></a>
+        <a href="{{ '/projects' | relative_url}}#edge-ai" class="project-card"><div>
+            <h3>📡 Edge AI Devices</h3>
+            <p class="project-description">
+                Field-deployable devices with on-board AI processing and LoRa connectivity for real-time wildlife detection and monitoring in remote locations.
+            </p>
+        </div></a>
+        <a href="{{ '/projects' | relative_url}}#bioacoustics" class="project-card"><div>
+            <h3>🔊 Bioacoustic Monitoring</h3>
             <p class="project-description">
                 Tools for capturing and analyzing wildlife sounds, enabling researchers to study species through audio signatures.
             </p>
-        </div>
-        <div class="project-card">
+        </div></a>
+        <a href="{{ '/projects' | relative_url}}#individual-id" class="project-card"><div>
             <h3>🐾 Individual ID</h3>
             <p class="project-description">
                 AI-powered systems for identifying individual animals using visual features, supporting population studies and conservation efforts.
             </p>
-        </div>
-        <div class="project-card">
+        </div></a>
+        <a href="{{ '/projects' | relative_url}}#data-management" class="project-card"><div>
             <h3>📊 Data Management</h3>
             <p class="project-description">
                 Platforms and tools for organizing, visualizing, and analyzing large-scale ecological data from various field devices.
             </p>
-        </div>
-        <div class="project-card">
+        </div></a>
+        <a href="{{ '/projects' | relative_url}}#thermal-imaging" class="project-card"><div>
             <h3>🌡️ Thermal Imaging</h3>
             <p class="project-description">
                 Detection and tracking systems using thermal cameras for monitoring wildlife in challenging environmental conditions.
             </p>
-        </div>
+        </div></a>
     </div>
     <h2 class="section-title">Featured Projects</h2>
     <div class="projects-grid">

@@ -25,12 +25,12 @@ description: Open-source conservation technology projects
       </div>
     </section>
     <!-- Environmental sensors (image on right) -->
-    <section class="project-section project-section--media-right" id="environmental-sensors" aria-labelledby="environmental-sensors-title">
+    <section class="project-section project-section--media-right" id="edge-ai" aria-labelledby="edge-ai-title">
       <div class="project-media">
-        <img src="/assets/images/projects/environmental-sensors.jpg" alt="Environmental sensors" />
+        <img src="/assets/images/projects/edge-ai.jpg" alt="Edge AI" />
       </div>
-      <div class="project-text" aria-labelledby="environmental-sensors-title">
-        <h3 id="environmental-sensors-title">Edge AI and Environmental Sensors</h3>
+      <div class="project-text" aria-labelledby="edge-ai-title">
+        <h3 id="edge-ai">Edge AI Devices and Environmental Sensors</h3>
         <p class="muted">
           Projects focused on physical sensors and deployments: low-power environmental monitoring, data ingest and telemetry, calibration, and integration with analysis pipelines.
         </p>
@@ -52,17 +52,44 @@ description: Open-source conservation technology projects
       </div>
     </section>
     <!-- Re-identification (image on left) -->
-    <section class="project-section project-section--media-left" id="re-identification" aria-labelledby="re-identification-title">
+    <section class="project-section project-section--media-left" id="individual-id" aria-labelledby="individual-id-title">
       <div class="project-media">
-        <img src="/assets/images/projects/re-identification.jpg" alt="Re-identification example" />
+        <img src="/assets/images/projects/re-identification.jpg" alt="individual-id example" />
       </div>
-      <div class="project-text" aria-labelledby="re-identification-title">
-        <h3 id="re-identification-title">Individual Re-Identification</h3>
+      <div class="project-text" aria-labelledby="individual-id-title">
+        <h3 id="individual-id-title">Individual Re-Identification</h3>
         <p class="muted">
           Research and tools for individual re-identification from images or acoustic signatures, including embedding models, matching workflows, and evaluation scripts.
         </p>
         <p>
           Projects include model training recipes for embeddings, example matching services, and evaluation suites for comparing approaches. We provide guidance for dataset preparation, cross-validation strategies, and deployment considerations for field use.
+        </p>
+      </div>
+    </section>
+    <!-- Data Management -->
+    <section class="project-section project-section--media-left" id="data-management" aria-labelledby="data-management-title">
+      <div class="project-text" aria-labelledby="data-management-title">
+        <h3 id="data-management-title">Data Management</h3>
+        <p class="muted">
+          Tools for cleaning, organizing, and analyzing a variety of ecological and evironmental data.
+        </p>
+        <p>
+          Lorem ipsum
+        </p>
+      </div>
+    </section>
+    <!-- Re-identification (image on left) -->
+    <section class="project-section project-section--media-left" id="thermal" aria-labelledby="thermal-title">
+      <div class="project-media">
+        <img src="/assets/images/projects/re-identification.jpg" alt="thermal example" />
+      </div>
+      <div class="project-text" aria-labelledby="thermal-title">
+        <h3 id="thermal-title">Thermal Imaging</h3>
+        <p class="muted">
+          Research and tools for individual re-identification from images or acoustic signatures, including embedding models, matching workflows, and evaluation scripts.
+        </p>
+        <p>
+          Lorem ipsum
         </p>
       </div>
     </section>

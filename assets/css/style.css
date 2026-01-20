@@ -130,6 +130,7 @@ header p {
 
 .project-card {
     background: white;
+    text-decoration: none;
     border-radius: 8px;
     padding: 1.5rem;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
@@ -141,13 +142,6 @@ header p {
 .project-card:hover {
     transform: translateY(-4px);
     box-shadow: 0 4px 16px rgba(0,0,0,0.15);
-}
-
-.card-inner {
-    text-decoration: none;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
 }
 
 .project-card h3 {
