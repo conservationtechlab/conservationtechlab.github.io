@@ -109,6 +109,18 @@ header p {
     font-weight: bold;
 }
 
+.site-heading { 
+    display: inline-flex; 
+    align-items: center; 
+    gap: 0.5rem;
+}
+
+.site-heading__img { 
+    height: 1.2em; 
+    width: auto; 
+    display: inline-block;
+}
+
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
