@@ -45,7 +45,7 @@ fellows:
   - id: alvaro-merida
     name: Alvaro Espinoza Merida
     role: CTL Fellow (2025-2026)
-    photo: /assets/images/people/alex-smith.svg
+    photo: https://sandiegozoo.box.com/shared/static/zkaf37dr2s43m3t1rb7lpwsx4gxqvq3b.jpg
     bio: "Fellow working on species distribution modelling."
   - id: sean-perry
     name: Sean Perry
@@ -64,10 +64,32 @@ volunteers:
     photo: /assets/images/people/alex-smith.svg
     bio: "Supports community engagement and documentation."
 
+  - id: christine-lind
+    name: Christine Lind
+    photo: /assets/images/people/alex-smith.svg
+    bio: "Supports community engagement and documentation."
+
+  - id: jay
+    name: Jay 
+    photo: /assets/images/people/alex-smith.svg
+    bio: "Supports community engagement and documentation."
+
 partners:
-  - id: partner-org
-    name: Partner Org
-    role: Organizational Partner
+  - id: matthias-zuerl
+    name: Matthias Zuerl
+    role: Friedrich-Alexander-Universität
+    photo: /assets/images/people/partner-org.svg
+    bio: "Long-term partner on spatial data interoperability projects."
+
+  - id: jan-petermann
+    name: Jan Petermann
+    role: Friedrich-Alexander-Universität
+    photo: /assets/images/people/partner-org.svg
+    bio: "Long-term partner on spatial data interoperability projects."
+
+  - id: sarah-lagattuta
+    name: Sarah Lagattuta
+    role: Center for Pandemic Insights
     photo: /assets/images/people/partner-org.svg
     bio: "Long-term partner on spatial data interoperability projects."
 
@@ -81,12 +103,16 @@ former_members:
     name: Grace Coleman
     role: Summer Fellow (2025)
 
-  - id: connor-st-john
-    name: Connor St. John
+  - id: conor-st-john
+    name: Conor St. John
     role: Summer Fellow (2025)
 
   - id: neel-raj
     name: Neel Raj
+    role: CTL Fellow (2025)
+
+  - id: taylor-pierce
+    name: Taylor Pierce
     role: CTL Fellow (2025)
 
   - id: saruni-jackson
@@ -95,7 +121,7 @@ former_members:
 
   - id: mani-amani
     name: Mani Amani
-    role: CTL Kenya Fellow (2024-2025)
+    role: CTL Fellow (2024-2025)
 
   - id: rishi-gupta
     name: Rishi Gupta
@@ -121,8 +147,16 @@ former_members:
     name: Ayush Singh
     role: CTL Fellow (2024)
 
-  - id: kayleigh-wilkes
-    name: Kayleigh Wilkes
+  - id: kailey-wilkens
+    name: Kailey Wilkens
+    role: CTL Fellow (2024)
+
+  - id: grace-jin
+    name: Grace Jin
+    role: CTL Fellow (2024)
+
+  - id: venz-burgos
+    name: Venz Burgos
     role: CTL Fellow (2024)
 
   - id: yuhe-li
@@ -164,6 +198,22 @@ former_members:
   - id: elias-martinez
     name: Elias Martinez
     role: CTL Fellow (2021-2022)
+
+  - id: kendrake-tsui
+    name: Kendrake Tsui
+    role: CTL Fellow (2021)
+
+  - id: amanda-breton
+    name: Amanda Breton 
+    role: CTL Fellow (2021)
+
+  - id: gates-dupont
+    name: Gates DuPont 
+    role: CTL Fellow (2019)
+
+  - id: gabriel-cano
+    name: Gabriel Cano 
+    role: CTL Fellow (2019)
 
   - id: josh-kessler
     name: Josh Kessler 
