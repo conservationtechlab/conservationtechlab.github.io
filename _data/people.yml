@@ -2,17 +2,17 @@ lab:
   - id: iingram
     name: Ian Ingram
     role: PI, Associate Director
-    photo: /assets/images/people/alex-smith.svg
+    photo: https://sandiegozoo.box.com/shared/static/jsczi1uaiiw2exvf34sx11dlx1b4jtal.jpg
     bio: "Leads the Conservation Technology Lab."
   - id: kgarwood
     name: Katie Garwood
     role: Research Associate
-    photo: /assets/images/people/alex-smith.svg
+    photo: https://sandiegozoo.box.com/shared/static/6dgzpzivn6uqm2u3wjdipijfb6vmlrhz.jpg
     bio: "Focuses on data-driven conservation workflows and open-source tooling."
   - id: smandadi
     name: Sumega Mandadi
     role: Research Coordinator I
-    photo: /assets/images/people/alex-smith.svg
+    photo: https://sandiegozoo.box.com/shared/static/k0erf8zheuya15mzdb2cz3rkofqc5as1.jpg
     bio: "Focuses on data-driven conservation workflows and open-source tooling."
   - id: vporter
     name: Valerie Porter
@@ -22,12 +22,12 @@ lab:
   - id: arichardson
     name: Andy Richardson
     role: Data Scientist
-    photo: /assets/images/people/alex-smith.svg
+    photo: https://sandiegozoo.box.com/shared/static/5jb8vgs6fnbq75oy9zf1284rfjdt1ynj.jpg
     bio: "Focuses on data-driven conservation workflows and open-source tooling."
   - id: tswanson
     name: Kyra Swanson
     role: Research Coordinator II
-    photo: /assets/images/people/alex-smith.svg
+    photo: https://sandiegozoo.box.com/shared/static/v9dtaq4ju4mcv409hlxrjqsasdylqlka.jpg
     bio: "Focuses on data-driven conservation workflows and open-source tooling."
   
 
@@ -40,7 +40,7 @@ fellows:
   - id: chandrima-das
     name: Chandrima Das
     role: CTL Fellow (2025-2026)
-    photo: /assets/images/people/alex-smith.svg
+    photo: https://sandiegozoo.box.com/shared/static/12yzayxmmig9rmogpk5fwx05j8zkb95b.jpeg
     bio: "Fellow working on species distribution modelling."
   - id: alvaro-merida
     name: Alvaro Espinoza Merida
@@ -50,27 +50,27 @@ fellows:
   - id: sean-perry
     name: Sean Perry
     role: CTL Fellow (2025-2026)
-    photo: /assets/images/people/alex-smith.svg
+    photo: https://sandiegozoo.box.com/shared/static/l0zf6zrr3n2lbxpdunmhpokbgd8i57gs.jpg
     bio: "Fellow working on species distribution modelling."
 
 volunteers:
   - id: robert-krenz
     name: Robert Krenz
-    photo: /assets/images/people/alex-smith.svg
+    photo: https://sandiegozoo.box.com/shared/static/4jliuddvchuwixjwmyrvbma8whr04x2y.jpg
     bio: "Supports community engagement and documentation."
 
   - id: barry-dorr
     name: Barry Dorr
-    photo: /assets/images/people/alex-smith.svg
+    photo: https://sandiegozoo.box.com/shared/static/h36dj1t5uadw4g1c5pioxu36f5e44t6v.jpeg
     bio: "Supports community engagement and documentation."
 
   - id: christine-lind
     name: Christine Lind
-    photo: /assets/images/people/alex-smith.svg
+    photo: https://sandiegozoo.box.com/shared/static/93awckokcjyox9ju8c4dweeggk72kp2g.jpg
     bio: "Supports community engagement and documentation."
 
-  - id: jay
-    name: Jay 
+  - id: jay-forristal
+    name: Jay Forristal
     photo: /assets/images/people/alex-smith.svg
     bio: "Supports community engagement and documentation."
 
