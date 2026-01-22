@@ -35,7 +35,7 @@ fellows:
   - id: siddhi-amilkanthwar
     name: Siddhi Amilkanthwar 
     role: CTL Fellow (2025-2026)
-    photo: /assets/images/people/alex-smith.svg
+    photo: https://sandiegozoo.box.com/shared/static/fitdnkhs28fhv4a3314db4cydhfr3n1b.png
     bio: "Fellow working on species distribution modelling."
   - id: chandrima-das
     name: Chandrima Das
@@ -90,7 +90,7 @@ partners:
   - id: sarah-lagattuta
     name: Sarah Lagattuta
     role: Center for Pandemic Insights
-    photo: /assets/images/people/partner-org.svg
+    photo: https://sandiegozoo.box.com/shared/static/bnzauw91xxut6zcn45vnehutqvy50ygx.jpg
     bio: "Long-term partner on spatial data interoperability projects."
 
 former_members:

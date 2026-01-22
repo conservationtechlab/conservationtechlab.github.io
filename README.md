@@ -1,4 +1,4 @@
-# Conservation Tech Lab Website
+# Conservation Tech Lab Github Homepage
 
 This repository contains the source code for the Conservation Tech Lab's GitHub Pages site, showcasing our open-source wildlife conservation technology projects.
 
