@@ -86,12 +86,14 @@ description: Join the Conservation Tech Lab
                     <li>Eligible to work in the United States</li>
                 </ul>
             </div>
+            <!--
             <div class="opportunity-cta">
                 <a href="https://science.sandiegozoo.org/opportunities/summer-student-fellowships" 
                    class="apply-button" target="_blank" rel="noopener">
                     Apply Now →
                 </a>
             </div>
+             -->
         </div>
         <!-- Volunteering Opportunities -->
         <div class="opportunity-card">
