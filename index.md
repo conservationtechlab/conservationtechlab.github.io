@@ -41,42 +41,42 @@ description: Developing open-source technology and machine learning tools for wi
             <p class="project-description">
                 Machine learning models and tools for automatically classifying and analyzing wildlife in camera trap images and videos.
             </p>
-        </div></a>
+        </div>
        <!-- <a href="{{ '/projects' | relative_url}}#edge-ai"> -->
        <div class="project-card">
             <h3>📡 Edge AI Devices</h3>
             <p class="project-description">
                 Field-deployable devices with on-board AI processing and LoRa connectivity for real-time wildlife detection and monitoring in remote locations.
             </p>
-        </div></a>
+        </div>
         <!-- <a href="{{ '/projects' | relative_url}}#bioacoustics" -->
         <div class="project-card">
             <h3>🔊 Bioacoustic Monitoring</h3>
             <p class="project-description">
                 Tools for capturing and detecting wildlife sounds, and for building training data sets and training models.
             </p>
-        </div></a>
+        </div>
         <!-- <a href="{{ '/projects' | relative_url}}#individual-id" -->
         <div class="project-card">
             <h3>🐾 Individual ID</h3>
             <p class="project-description">
                 AI-powered systems for identifying individual animals using visual features.
             </p>
-        </div></a>
+        </div>
         <!-- <a href="{{ '/projects' | relative_url}}#data-management" -->
         <div class="project-card">
             <h3>📊 Data Management</h3>
             <p class="project-description">
                 Platforms and tools for organizing, visualizing, and analyzing large-scale ecological data from various field devices.
             </p>
-        </div></a>
+        </div>
         <!-- <a href="{{ '/projects' | relative_url}}#thermal-imaging" -->
         <div class="project-card">
             <h3>🌡️ Thermal Imaging</h3>
             <p class="project-description">
                 Detection and tracking systems using thermal cameras for monitoring wildlife in challenging environmental conditions.
             </p>
-        </div></a>
+        </div>
     </div>
     <h2 class="section-title">Featured Projects</h2>
     <div class="projects-grid">
