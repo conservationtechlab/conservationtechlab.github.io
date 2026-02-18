@@ -35,37 +35,43 @@ description: Developing open-source technology and machine learning tools for wi
 <div class="container">
     <h2 class="section-title">Research Focus Areas</h2>
     <div class="projects-grid">
-        <a href="{{ '/projects' | relative_url}}#camera-traps" class="project-card"><div>
+        <!-- <a href="{{ '/projects' | relative_url}}#camera-traps" -->
+        <div class="project-card">
             <h3>📷 Camera Trap AI</h3>
             <p class="project-description">
                 Machine learning models and tools for automatically classifying and analyzing wildlife in camera trap images and videos.
             </p>
         </div></a>
-        <a href="{{ '/projects' | relative_url}}#edge-ai" class="project-card"><div>
+       <!-- <a href="{{ '/projects' | relative_url}}#edge-ai"> -->
+       <div class="project-card">
             <h3>📡 Edge AI Devices</h3>
             <p class="project-description">
                 Field-deployable devices with on-board AI processing and LoRa connectivity for real-time wildlife detection and monitoring in remote locations.
             </p>
         </div></a>
-        <a href="{{ '/projects' | relative_url}}#bioacoustics" class="project-card"><div>
+        <!-- <a href="{{ '/projects' | relative_url}}#bioacoustics" -->
+        <div class="project-card">
             <h3>🔊 Bioacoustic Monitoring</h3>
             <p class="project-description">
-                Tools for capturing and analyzing wildlife sounds, enabling researchers to study species through audio signatures.
+                Tools for capturing and detecting wildlife sounds, and for building training data sets and training models.
             </p>
         </div></a>
-        <a href="{{ '/projects' | relative_url}}#individual-id" class="project-card"><div>
+        <!-- <a href="{{ '/projects' | relative_url}}#individual-id" -->
+        <div class="project-card">
             <h3>🐾 Individual ID</h3>
             <p class="project-description">
-                AI-powered systems for identifying individual animals using visual features, supporting population studies and conservation efforts.
+                AI-powered systems for identifying individual animals using visual features.
             </p>
         </div></a>
-        <a href="{{ '/projects' | relative_url}}#data-management" class="project-card"><div>
+        <!-- <a href="{{ '/projects' | relative_url}}#data-management" -->
+        <div class="project-card">
             <h3>📊 Data Management</h3>
             <p class="project-description">
                 Platforms and tools for organizing, visualizing, and analyzing large-scale ecological data from various field devices.
             </p>
         </div></a>
-        <a href="{{ '/projects' | relative_url}}#thermal-imaging" class="project-card"><div>
+        <!-- <a href="{{ '/projects' | relative_url}}#thermal-imaging" -->
+        <div class="project-card">
             <h3>🌡️ Thermal Imaging</h3>
             <p class="project-description">
                 Detection and tracking systems using thermal cameras for monitoring wildlife in challenging environmental conditions.
@@ -78,7 +84,7 @@ description: Developing open-source technology and machine learning tools for wi
         <div class="project-card">
             <h3><a href="https://github.com/conservationtechlab/animl-r" target="_blank" rel="noopener">animl-r</a></h3>
             <p class="project-description">
-                Animl comprises a variety of machine learning tools for analyzing ecological data. The package includes a set of functions to classify subjects within camera trap field data and can handle both images and videos.
+                Animl comprises a variety of machine learning tools for analyzing ecological data. The R library includes a set of functions to classify subjects within camera trap field data and can handle both images and videos.
             </p>
             <div class="project-meta">
                 <span class="language">R</span>
@@ -113,16 +119,15 @@ description: Developing open-source technology and machine learning tools for wi
                 <span>⭐ 6</span>
             </div>
         </div>
-        <!-- DenCam -->
+        <!-- ScrubDash -->
         <div class="project-card">
-            <h3><a href="https://github.com/conservationtechlab/dencam" target="_blank" rel="noopener">dencam</a></h3>
+            <h3><a href="https://github.com/conservationtechlab/scrubdash" target="_blank" rel="noopener">scrubdash</a></h3>
             <p class="project-description">
-                Polar bear maternal den observation system designed for monitoring and studying polar bear denning behavior in remote Arctic environments.
+                Dashboard for organizing, visualizing, and analyzing images received from ScrubCams in the field.
             </p>
             <div class="project-meta">
                 <span class="language">Python</span>
-                <span>⭐ 5</span>
-                <span>🍴 2 forks</span>
+                <span>⭐ 3</span>
             </div>
         </div>
         <!-- Whoot -->
@@ -130,17 +135,6 @@ description: Developing open-source technology and machine learning tools for wi
             <h3><a href="https://github.com/conservationtechlab/whoot" target="_blank" rel="noopener">whoot</a></h3>
             <p class="project-description">
                 Tools for capturing, analyzing, and parsing bioacoustic data to help researchers study wildlife through sound recordings.
-            </p>
-            <div class="project-meta">
-                <span class="language">Python</span>
-                <span>⭐ 5</span>
-            </div>
-        </div>
-        <!-- CamML -->
-        <div class="project-card">
-            <h3><a href="https://github.com/conservationtechlab/camml" target="_blank" rel="noopener">camml</a></h3>
-            <p class="project-description">
-                A package of ML components for CTL field camera systems, providing machine learning capabilities for various camera trap applications.
             </p>
             <div class="project-meta">
                 <span class="language">Python</span>
@@ -158,6 +152,18 @@ description: Developing open-source technology and machine learning tools for wi
                 <span>⭐ 5</span>
             </div>
         </div>
+        <!-- DenCam -->
+        <div class="project-card">
+            <h3><a href="https://github.com/conservationtechlab/dencam" target="_blank" rel="noopener">dencam</a></h3>
+            <p class="project-description">
+                Polar bear maternal den observation system designed for monitoring and studying polar bear denning behavior in remote Arctic environments.
+            </p>
+            <div class="project-meta">
+                <span class="language">Python</span>
+                <span>⭐ 5</span>
+                <span>🍴 2 forks</span>
+            </div>
+        </div>
         <!-- CougarVision -->
         <div class="project-card">
             <h3><a href="https://github.com/conservationtechlab/cougarvision" target="_blank" rel="noopener">cougarvision</a></h3>
@@ -169,15 +175,26 @@ description: Developing open-source technology and machine learning tools for wi
                 <span>⭐ 4</span>
             </div>
         </div>
-        <!-- ScrubDash -->
+        <!-- CameraBase -->
         <div class="project-card">
-            <h3><a href="https://github.com/conservationtechlab/scrubdash" target="_blank" rel="noopener">scrubdash</a></h3>
+            <h3><a href="https://github.com/conservationtechlab/camerabase" target="_blank" rel="noopener">camerabase</a></h3>
             <p class="project-description">
-                Dashboard for organizing, visualizing, and analyzing images received from ScrubCams in the field.
+                GUI application for managing data from camera traps used in field ecology projects, streamlining data organization and analysis workflows.
+            </p>
+            <div class="project-meta">
+                <span class="language">Batchfile</span>
+                <span>⭐ 1</span>
+            </div>
+        </div>
+        <!-- HeatSeek -->
+        <div class="project-card">
+            <h3><a href="https://github.com/conservationtechlab/heatseek" target="_blank" rel="noopener">heatseek</a></h3>
+            <p class="project-description">
+                Thermal imagery detection and tracking tools for monitoring wildlife using thermal cameras.
             </p>
             <div class="project-meta">
                 <span class="language">Python</span>
-                <span>⭐ 3</span>
+                <span>⭐ 1</span>
             </div>
         </div>
         <!-- YoctoDetector -->
@@ -201,18 +218,6 @@ description: Developing open-source technology and machine learning tools for wi
             <div class="project-meta">
                 <span class="language">Makefile</span>
                 <span>⭐ 3</span>
-            </div>
-        </div>
-        <!-- Gnatcatcher -->
-        <div class="project-card">
-            <h3><a href="https://github.com/conservationtechlab/gnatcatcher" target="_blank" rel="noopener">gnatcatcher</a></h3>
-            <p class="project-description">
-                Experiments in rendering and analyzing sound data from field recordings to study wildlife through audio analysis.
-            </p>
-            <div class="project-meta">
-                <span class="language">Python</span>
-                <span>⭐ 2</span>
-                <span>🍴 1 fork</span>
             </div>
         </div>
         <!-- CameraBase R -->
@@ -247,38 +252,6 @@ description: Developing open-source technology and machine learning tools for wi
                 <span class="language">C++</span>
                 <span>⭐ 2</span>
                 <span>🍴 1 fork</span>
-            </div>
-        </div>
-        <!-- CameraBase -->
-        <div class="project-card">
-            <h3><a href="https://github.com/conservationtechlab/camerabase" target="_blank" rel="noopener">camerabase</a></h3>
-            <p class="project-description">
-                GUI application for managing data from camera traps used in field ecology projects, streamlining data organization and analysis workflows.
-            </p>
-            <div class="project-meta">
-                <span class="language">Batchfile</span>
-                <span>⭐ 1</span>
-            </div>
-        </div>
-        <!-- HeatSeek -->
-        <div class="project-card">
-            <h3><a href="https://github.com/conservationtechlab/heatseek" target="_blank" rel="noopener">heatseek</a></h3>
-            <p class="project-description">
-                Thermal imagery detection and tracking tools for monitoring wildlife using thermal cameras.
-            </p>
-            <div class="project-meta">
-                <span class="language">Python</span>
-                <span>⭐ 1</span>
-            </div>
-        </div>
-        <!-- Pappus -->
-        <div class="project-card">
-            <h3><a href="https://github.com/conservationtechlab/pappus" target="_blank" rel="noopener">pappus</a></h3>
-            <p class="project-description">
-                Code and tools related to LoRa communication, particularly as pertains to data links to and between devices in the Biodiversity Reserve.
-            </p>
-            <div class="project-meta">
-                <span class="language">Python</span>
             </div>
         </div>
     </div>

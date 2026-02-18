@@ -8,27 +8,27 @@ lab:
     name: Katie Garwood
     role: Research Associate
     photo: https://sandiegozoo.box.com/shared/static/6dgzpzivn6uqm2u3wjdipijfb6vmlrhz.jpg
-    bio: "Focuses on data-driven conservation workflows and open-source tooling."
+    bio: "Builds and maintains multimodal field sensor systems with LoRa connectivity."
   - id: smandadi
     name: Sumega Mandadi
     role: Research Coordinator I
     photo: https://sandiegozoo.box.com/shared/static/k0erf8zheuya15mzdb2cz3rkofqc5as1.jpg
-    bio: "Focuses on data-driven conservation workflows and open-source tooling."
+    bio: "Builds custom field sensors and leverages thermal imaging of bats for pandemic prevention."
   - id: vporter
     name: Valerie Porter
     role: Postdoctoral Researcher
-    photo: /assets/images/people/alex-smith.svg
-    bio: "Focuses on data-driven conservation workflows and open-source tooling."
+    photo: https://sandiegozoo.box.com/shared/static/25t3dv4ws7grzuhlip7j0rd7hkgxf6eb.jpg
+    bio: "Develops machine learning pipelines for bat and bird bioacoustic data to monitor biodiversity and inform conservation decisions."
   - id: arichardson
     name: Andy Richardson
     role: Data Scientist
     photo: https://sandiegozoo.box.com/shared/static/5jb8vgs6fnbq75oy9zf1284rfjdt1ynj.jpg
-    bio: "Focuses on data-driven conservation workflows and open-source tooling."
+    bio: "Develops ETL pipelines and creates interactive dashboards to visualize conservation and wildlife health data."
   - id: tswanson
     name: Kyra Swanson
     role: Research Coordinator II
     photo: https://sandiegozoo.box.com/shared/static/v9dtaq4ju4mcv409hlxrjqsasdylqlka.jpg
-    bio: "Focuses on data-driven conservation workflows and open-source tooling."
+    bio: "Builds CVML tools for species recognition and individual identification."
   
 
 fellows:
@@ -36,62 +36,48 @@ fellows:
     name: Siddhi Amilkanthwar 
     role: CTL Fellow (2025-2026)
     photo: https://sandiegozoo.box.com/shared/static/fitdnkhs28fhv4a3314db4cydhfr3n1b.png
-    bio: "Fellow working on species distribution modelling."
   - id: chandrima-das
     name: Chandrima Das
     role: CTL Fellow (2025-2026)
     photo: https://sandiegozoo.box.com/shared/static/12yzayxmmig9rmogpk5fwx05j8zkb95b.jpeg
-    bio: "Fellow working on species distribution modelling."
   - id: alvaro-merida
     name: Alvaro Espinoza Merida
     role: CTL Fellow (2025-2026)
     photo: https://sandiegozoo.box.com/shared/static/zkaf37dr2s43m3t1rb7lpwsx4gxqvq3b.jpg
-    bio: "Fellow working on species distribution modelling."
   - id: sean-perry
     name: Sean Perry
     role: CTL Fellow (2025-2026)
     photo: https://sandiegozoo.box.com/shared/static/l0zf6zrr3n2lbxpdunmhpokbgd8i57gs.jpg
-    bio: "Fellow working on species distribution modelling."
 
 volunteers:
   - id: robert-krenz
     name: Robert Krenz
     photo: https://sandiegozoo.box.com/shared/static/4jliuddvchuwixjwmyrvbma8whr04x2y.jpg
-    bio: "Supports community engagement and documentation."
-
   - id: barry-dorr
     name: Barry Dorr
     photo: https://sandiegozoo.box.com/shared/static/h36dj1t5uadw4g1c5pioxu36f5e44t6v.jpeg
-    bio: "Supports community engagement and documentation."
-
   - id: christine-lind
     name: Christine Lind
     photo: https://sandiegozoo.box.com/shared/static/93awckokcjyox9ju8c4dweeggk72kp2g.jpg
-    bio: "Supports community engagement and documentation."
-
   - id: jay-forristal
     name: Jay Forristal
-    photo: /assets/images/people/alex-smith.svg
     bio: "Supports community engagement and documentation."
 
 partners:
   - id: matthias-zuerl
     name: Matthias Zuerl
     role: Friedrich-Alexander-Universität
-    photo: /assets/images/people/partner-org.svg
-    bio: "Long-term partner on spatial data interoperability projects."
+    photo: https://sandiegozoo.box.com/shared/static/2b7s2y5ereay4y2z780dcszm8o9yhsih.png
 
   - id: jan-petermann
     name: Jan Petermann
     role: Friedrich-Alexander-Universität
-    photo: /assets/images/people/partner-org.svg
-    bio: "Long-term partner on spatial data interoperability projects."
+    #photo: /assets/images/people/partner-org.svg
 
   - id: sarah-lagattuta
     name: Sarah Lagattuta
     role: Center for Pandemic Insights
     photo: https://sandiegozoo.box.com/shared/static/bnzauw91xxut6zcn45vnehutqvy50ygx.jpg
-    bio: "Long-term partner on spatial data interoperability projects."
 
 former_members:
 
@@ -221,8 +207,8 @@ former_members:
 
   - id: jonathan-kohler
     name: Jonathan Kohler 
-    role: Volunteer
+    role: Fellow (2021)
 
   - id: jared-macshane
     name: Jared MacShane 
-    role: Volunteer
+    role: Fellow (2021)

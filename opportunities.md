@@ -14,7 +14,9 @@ description: Join the Conservation Tech Lab
         <div class="opportunity-card">
             <div class="opportunity-icon">💻</div>
             <h3>Conservation Technology Fellowship</h3>
-            <div class="opportunity-status status-rolling">Rolling Applications</div>
+            <div class="opportunity-status status-rolling">
+                Rolling Applications
+            </div>
             <p class="opportunity-description">
                 The CTL offers fellowships to students in computer science,
                 software engineering, electrical engineering, or a related field. 
@@ -26,7 +28,7 @@ description: Join the Conservation Tech Lab
                     <strong>⏱️ Duration:</strong> 300 hours (30 weeks, 10 hours/week)
                 </div>
                 <div class="detail-item">
-                    <strong>💰 Stipend:</strong> $XXX
+                    <strong>💰 Stipend:</strong> 
                 </div>
                 <div class="detail-item">
                     <strong>📍 Location:</strong> Beckman Center (Escondido, CA)
@@ -49,8 +51,7 @@ description: Join the Conservation Tech Lab
             <div class="opportunity-icon">🔬</div>
             <h3>Conservation Science Summer Fellowship</h3>
             <div class="opportunity-status status-open">
-                Applications Open!<br>
-                Deadline Feb 15, 2026
+                Applications Closed!<br>
             </div>
             <p class="opportunity-description">
                 The Conservation Science Summer Fellowship is a 12-week program 
