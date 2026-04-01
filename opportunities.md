@@ -28,7 +28,7 @@ description: Join the Conservation Tech Lab
                     <strong>⏱️ Duration:</strong> 300 hours (30 weeks, 10 hours/week)
                 </div>
                 <div class="detail-item">
-                    <strong>💰 Stipend:</strong> 
+                    <strong>💰 Stipend: $6,120</strong> 
                 </div>
                 <div class="detail-item">
                     <strong>📍 Location:</strong> Beckman Center (Escondido, CA)
@@ -40,9 +40,10 @@ description: Join the Conservation Tech Lab
             <div class="opportunity-requirements">
                 <strong>Eligibility:</strong>
                 <ul>
-                    <li>Upperclass undergraduates or graduate students</li>
+                    <li>Upperclass undergraduates or graduate students within San Diego County</li>
                     <li>Background in computer science, software/electrical engineering, or related field</li>
                     <li>Eligible to work in the United States</li>
+                    <li>Has a reliable form of transport</li>
                 </ul>
             </div>
         </div>
