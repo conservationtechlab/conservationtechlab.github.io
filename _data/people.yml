@@ -41,18 +41,14 @@ fellows:
     name: Siddhi Amilkanthwar 
     role: CTL Fellow (2025-2026)
     photo: https://sandiegozoo.box.com/shared/static/fitdnkhs28fhv4a3314db4cydhfr3n1b.png
-  - id: chandrima-das
-    name: Chandrima Das
-    role: CTL Fellow (2025-2026)
-    photo: https://sandiegozoo.box.com/shared/static/12yzayxmmig9rmogpk5fwx05j8zkb95b.jpeg
-  - id: alvaro-merida
-    name: Alvaro Espinoza Merida
-    role: CTL Fellow (2025-2026)
-    photo: https://sandiegozoo.box.com/shared/static/zkaf37dr2s43m3t1rb7lpwsx4gxqvq3b.jpg
-  - id: sean-perry
-    name: Sean Perry
-    role: CTL Fellow (2025-2026)
-    photo: https://sandiegozoo.box.com/shared/static/l0zf6zrr3n2lbxpdunmhpokbgd8i57gs.jpg
+  - id: akhil-nallacheruvu
+    name: Akhil Nallacheruvu 
+    role: CTL Fellow (2026)
+    photo: 
+  - id: montserrat-jara
+    name: Montserrat Jara 
+    role: CTL Fellow (2026)
+    photo:
 
 volunteers:
   - id: robert-krenz
@@ -85,6 +81,18 @@ partners:
     photo: https://sandiegozoo.box.com/shared/static/bnzauw91xxut6zcn45vnehutqvy50ygx.jpg
 
 former_members:
+
+   - id: chandrima-das
+    name: Chandrima Das
+    role: CTL Fellow (2025-2026)
+
+  - id: alvaro-merida
+    name: Alvaro Espinoza Merida
+    role: CTL Fellow (2025-2026)
+
+  - id: sean-perry
+    name: Sean Perry
+    role: CTL Fellow (2025-2026)
 
   - id: jenasis-campbell
     name: Jenasis Campbell
