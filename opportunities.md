@@ -48,7 +48,7 @@ description: Join the Conservation Tech Lab
             </div>
         </div>
         <!-- Conservation Science Summer Fellowship -->
-        <div class="opportunity-card opportunity-highlight">
+        <div class="opportunity-card">
             <div class="opportunity-icon">🔬</div>
             <h3>Conservation Science Summer Fellowship</h3>
             <div class="opportunity-status status-open">
