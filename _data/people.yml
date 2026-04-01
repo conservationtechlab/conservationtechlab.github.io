@@ -1,4 +1,9 @@
 lab:
+  - id: mtobler
+    name: Mathias Tobler
+    role: Director
+    photo: https://sandiegozoo.box.com/shared/static/jk7dkihynztyrd89czszpiapn7hys6vk.jpg
+    bio: "Director of Population Sustainability, studies population dynamics of large mammals."
   - id: iingram
     name: Ian Ingram
     role: PI, Associate Director

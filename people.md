@@ -16,7 +16,9 @@ description: Meet the Conservation Tech Lab team
   {% endcomment %}
 
   {% comment %} Render the lead (Ian Ingram) on its own row {% endcomment %}
-  {% assign head = site.data.people.lab | where: "id", "iingram" %}
+  {% assign head1 = site.data.people.lab | where: "id", "mtobler" %}
+  {% assign head2 = site.data.people.lab | where: "id", "iingram" %}
+  {% assign head = head1 | concat: head2 %}
   {% include people-cards.html collection=head title="Lab" %}
 
   {% comment %} Render the rest of the lab members {% endcomment %}
