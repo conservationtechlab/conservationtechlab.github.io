@@ -22,7 +22,8 @@ description: Meet the Conservation Tech Lab team
   {% include people-cards.html collection=head title="Lab" %}
 
   {% comment %} Render the rest of the lab members {% endcomment %}
-  {% assign lab_others = site.data.people.lab | where_exp: "person", "person.id != 'iingram' and person.id != 'mtobler'" %}
+  {% assign lab_others = site.data.people.lab | where_exp: "person", "person.id != 'iingram'" %}
+  {% assign lab_others = lab_others | where_exp: "person", "person.id != 'mtobler'" %}
   {% include people-cards.html collection=lab_others title="" %}
 
   {% include people-cards.html collection=site.data.people.fellows title="Fellows" %}
