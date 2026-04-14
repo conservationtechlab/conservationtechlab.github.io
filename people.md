@@ -28,6 +28,5 @@ description: Meet the Conservation Tech Lab team
 
   {% include people-cards.html collection=site.data.people.fellows title="Fellows" %}
   {% include people-cards.html collection=site.data.people.volunteers title="Volunteers" %}
-  {% include people-cards.html collection=site.data.people.partners title="Partners" %}
   {% include people-cards.html collection=site.data.people.former_members title="Former Members" %}
 </div>
