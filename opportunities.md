@@ -28,7 +28,7 @@ description: Join the Conservation Tech Lab
                     <strong>⏱️ Duration:</strong> 300 hours (30 weeks, 10 hours/week)
                 </div>
                 <div class="detail-item">
-                    <strong>💰 Stipend: $6,120</strong> 
+                    <strong>💰 Stipend:</strong> $6,120
                 </div>
                 <div class="detail-item">
                     <strong>📍 Location:</strong> Beckman Center (Escondido, CA)
