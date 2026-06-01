@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background: linear-gradient(135deg, #2393A9 0%, #6CB33F 100%);
+    background: linear-gradient(135deg, #2393A9 0%, #8AD7E4 100%);
     color: white;
     padding: 2rem 0;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
@@ -156,7 +156,7 @@ header p {
 }
 
 .project-card h3 a:hover {
-    color: #6CB33F;
+    color: #73e2f8;
     text-decoration: underline;
 }
 
