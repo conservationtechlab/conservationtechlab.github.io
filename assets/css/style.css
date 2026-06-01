@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background: linear-gradient(135deg, #215732 0%, #6CB33F 100%);
+    background: linear-gradient(135deg, #2393A9 0%, #8AD7E4 100%);
     color: white;
     padding: 2rem 0;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
@@ -58,7 +58,7 @@ header p {
 }
 
 .nav-menu a {
-    color: #215732;
+    color: #2393A9;
     text-decoration: none;
     font-weight: 500;
     font-size: 1rem;
@@ -68,12 +68,12 @@ header p {
 }
 
 .nav-menu a:hover {
-    background-color: #e8f5e9;
-    color: #1a4a1b;
+    background-color: #dff3f7;
+    color: #1b6f80;
 }
 
 .nav-menu a.active {
-    background-color: #215732;
+    background-color: #2393A9;
     color: white;
 }
 
@@ -85,7 +85,7 @@ header p {
 
 .hero h2 {
     font-size: 2rem;
-    color: #215732;
+    color: #2393A9;
     margin-bottom: 1rem;
 }
 
@@ -98,14 +98,14 @@ header p {
 
 .section-title {
     font-size: 2rem;
-    color: #215732;
+    color: #2393A9;
     margin: 3rem 0 2rem 0;
     text-align: center;
     font-weight: 600;
 }
 
 .important{
-    color: #067706;
+    color: #2393A9;
     font-weight: bold;
 }
 
@@ -145,18 +145,18 @@ header p {
 }
 
 .project-card h3 {
-    color: #215732;
+    color: #2393A9;
     font-size: 1.4rem;
     margin-bottom: 0.5rem;
 }
 
 .project-card h3 a {
-    color: #215732;
+    color: #2393A9;
     text-decoration: none;
 }
 
 .project-card h3 a:hover {
-    color: #97bc62;
+    color: #73e2f8;
     text-decoration: underline;
 }
 
@@ -230,8 +230,8 @@ header p {
 }
 
 .language {
-    background: #e8f5e9;
-    color: #215732;
+    background: #dff3f7;
+    color: #2393A9;
     padding: 0.2rem 0.6rem;
     border-radius: 12px;
     font-size: 0.85rem;
@@ -253,7 +253,7 @@ header p {
 }
 
 footer {
-    background: #2c5f2d;
+    background: #2393A9;
     color: white;
     text-align: center;
     padding: 2rem 0;
@@ -261,7 +261,7 @@ footer {
 }
 
 footer a {
-    color: #97bc62;
+    color: #dff3f7;
     text-decoration: none;
 }
 
@@ -287,7 +287,7 @@ footer a:hover {
 .stat-number {
     font-size: 2.5rem;
     font-weight: bold;
-    color: #215732;
+    color: #2393A9;
 }
 
 .stat-label {
@@ -348,12 +348,12 @@ footer a:hover {
 }
 
 .opportunity-highlight {
-    border: 2px solid #2c5f2d;
-    box-shadow: 0 4px 16px rgba(44, 95, 45, 0.15);
+    border: 2px solid #2393A9;
+    box-shadow: 0 4px 16px rgba(35, 147, 169, 0.15);
 }
 
 .opportunity-highlight:hover {
-    box-shadow: 0 8px 24px rgba(44, 95, 45, 0.25);
+    box-shadow: 0 8px 24px rgba(35, 147, 169, 0.25);
 }
 
 .opportunity-icon {
@@ -363,7 +363,7 @@ footer a:hover {
 }
 
 .opportunity-card h3 {
-    color: #2c5f2d;
+    color: #2393A9;
     font-size: 1.5rem;
     margin-bottom: 1rem;
     text-align: center;
@@ -382,7 +382,7 @@ footer a:hover {
 .status-open {
     background: #dcf4dc;
     color: #1b5e1f;
-    border: 2px solid #2c5f2d;
+    border: 2px solid #2393A9;
 }
 
 .status-rolling {
@@ -426,15 +426,15 @@ footer a:hover {
 }
 
 .opportunity-requirements {
-    background: #f0f8f0;
-    border-left: 4px solid #2c5f2d;
+    background: #eef8fa;
+    border-left: 4px solid #2393A9;
     padding: 1rem 1.25rem;
     border-radius: 4px;
     margin-bottom: 1rem;
 }
 
 .opportunity-requirements strong {
-    color: #2c5f2d;
+    color: #2393A9;
     display: block;
     margin-bottom: 0.5rem;
 }
@@ -456,7 +456,7 @@ footer a:hover {
 
 .apply-button {
     display: inline-block;
-    background: linear-gradient(135deg, #2c5f2d 0%, #3a7a3d 100%);
+    background: linear-gradient(135deg, #2393A9 0%, #1b6f80 100%);
     color: white;
     padding: 0.875rem 2rem;
     border-radius: 8px;
@@ -464,12 +464,12 @@ footer a:hover {
     font-weight: 600;
     font-size: 1.05rem;
     transition: transform 0.2s, box-shadow 0.2s;
-    box-shadow: 0 4px 12px rgba(44, 95, 45, 0.3);
+    box-shadow: 0 4px 12px rgba(35, 147, 169, 0.3);
 }
 
 .apply-button:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px 16px rgba(44, 95, 45, 0.4);
-    background: linear-gradient(135deg, #1a4a1b 0%, #2c5f2d 100%);
+    box-shadow: 0 6px 16px rgba(35, 147, 169, 0.4);
+    background: linear-gradient(135deg, #1b6f80 0%, #155766 100%);
 }
 
