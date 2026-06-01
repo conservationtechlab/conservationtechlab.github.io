@@ -5,30 +5,63 @@ description: Open-source conservation technology projects
 ---
 
 <div class="container">
-    <h2 class="section-title">Projects</h2>
+    <h2 class="section-title">Project Highlights</h2>
     <p style="text-align: center; color: #666; margin-bottom: 2rem;">
-        Explore our open-source conservation technology projects.
+        Explore our core open-source conservation technology projects.
     </p>
     <!-- Camera traps (image on right) -->
-    <section href="{{ '/animl' | relative_url}}" 
-             class="project-section project-section--media-right" id="animl" aria-labelledby="animl-title">
+    <section class="project-section project-section--media-right" id="animl" aria-labelledby="animl-title">
       <div class="project-media">
-        <img src="/assets/images/projects/camera-traps.jpg" alt="Camera trap image" />
+        <img src="/assets/images/projects/animl.jpg" alt="Camera trap image" />
       </div>
       <div class="project-text" aria-labelledby="animl-title">
         <h3 id="animl-title">AniML</h3>
         <p class="muted">
-          Open-source tooling for camera-trap imagery: ingestion, annotation, automated detection and species classification, and reproducible analysis pipelines.
+          A package available in Python and R for AI-assisted camera trap image processing.
         </p>
         <p>
-          Work focuses on robust ingestion from diverse camera systems, annotation workflows that speed labeling, and models that detect animals and estimate abundance. We also prioritize reproducible notebooks and deployment-ready detection pipelines.
+          The AniML package provides functions for ingesting raw image and video files and outputs predictions for 
+          species using region-specific species classifier models. We provide several species models including for the African Savanna, 
+          the Peruvian Amazon, the Andes mountains, and the Western US. 
+          AniML provides the results in a number of export formats, including TimeLapse and CamTrapDP. 
+          The package also includes AI-based re-indentification tools and custom species model training.
+        </p>
+        <br>
+        <p>For more information, see:<br>
+        <a href="https://conservationtechlab.github.io/animl-py/">AniML (Python Package)</a><br>
+        <a href="https://github.com/conservationtechlab/animl-r">AniML (R Library)</a><br>
+        <a href="https://github.com/conservationtechlab/animl-lite">AniML-Lite</a><br>
+        <!-- <a href="">Model Wilderness</a> -->
         </p>
       </div>
     </section>
-    <!-- Environmental sensors (image on right) -->
+     <!-- Re-identification (image on left) -->
+    <section href="{{ '/matchypatchy' | relative_url}}" 
+             class="project-section project-section--media-left" id="individual-id" aria-labelledby="individual-id-title">
+      <div class="project-media">
+        <img src="/assets/images/projects/matchypatchy.png" alt="MatchyPatchy Software" />
+      </div>
+      <div class="project-text" aria-labelledby="individual-id-title">
+        <h3 id="individual-id-title">MatchyPatchy</h3>
+        <p class="muted">
+          A desktop application for Windows and Linux for AI-assisted re-identification of patterned animals. 
+        </p>
+        <p>
+          MatchyPatchy ingests either raw image/video files or a .csv list of images, calculates vector embeddings of the images, and 
+          presents the user with potential matches based on similarity of the vectors. MatchyPatchy can be used with a set of reference
+          images of named individuals, or from scratch on a set of data where no individuals are indentified yet. 
+        </p>
+        <br>
+        <p>
+          For more information, see: <a href="https://conservationtechlab.github.io/matchypatchy/">MatchyPatchy</a><br>
+        </p>
+      </div>
+    </section>
+<!--
+    Environmental sensors (image on right) 
     <section class="project-section project-section--media-right" id="edge-ai" aria-labelledby="edge-ai-title">
       <div class="project-media">
-        <img src="/assets/images/projects/edge-ai.jpg" alt="Edge AI" />
+        <img src="/assets/images/projects/sagebrush.jpg" alt="SageBRUSH" />
       </div>
       <div class="project-text" aria-labelledby="edge-ai-title">
         <h3 id="edge-ai">SageBRUSH</h3>
@@ -40,8 +73,11 @@ description: Open-source conservation technology projects
         </p>
       </div>
     </section>
-    <!-- Bioacoustics (image on left) -->
+    Bioacoustics (image on left) 
     <section class="project-section project-section--media-left" id="bioacoustics" aria-labelledby="bioacoustics-title">
+     <div class="project-media">
+        <img src="/assets/images/projects/bioacoustics.jpg" alt="Spectrogram of ..." />
+      </div>
       <div class="project-text" aria-labelledby="bioacoustics-title">
         <h3 id="bioacoustics-title">Bioacoustics</h3>
         <p class="muted">
@@ -52,23 +88,8 @@ description: Open-source conservation technology projects
         </p>
       </div>
     </section>
-    <!-- Re-identification (image on left) -->
-    <section href="{{ '/matchypatchy' | relative_url}}" 
-             class="project-section project-section--media-left" id="individual-id" aria-labelledby="individual-id-title">
-      <div class="project-media">
-        <img src="/assets/images/projects/re-identification.jpg" alt="individual-id example" />
-      </div>
-      <div class="project-text" aria-labelledby="individual-id-title">
-        <h3 id="individual-id-title">MatchyPatchy</h3>
-        <p class="muted">
-          Research and tools for individual re-identification from images or acoustic signatures, including embedding models, matching workflows, and evaluation scripts.
-        </p>
-        <p>
-          Projects include model training recipes for embeddings, example matching services, and evaluation suites for comparing approaches. We provide guidance for dataset preparation, cross-validation strategies, and deployment considerations for field use.
-        </p>
-      </div>
-    </section>
-    <!-- Data Management -->
+   
+    Data Management
     <section class="project-section project-section--media-left" id="data-management" aria-labelledby="data-management-title">
       <div class="project-text" aria-labelledby="data-management-title">
         <h3 id="data-management-title">Data Management</h3>
@@ -80,7 +101,7 @@ description: Open-source conservation technology projects
         </p>
       </div>
     </section>
-    <!-- Re-identification (image on left) -->
+    Thermal    
     <section class="project-section project-section--media-left" id="thermal" aria-labelledby="thermal-title">
       <div class="project-media">
         <img src="/assets/images/projects/re-identification.jpg" alt="thermal example" />
@@ -95,5 +116,5 @@ description: Open-source conservation technology projects
         </p>
       </div>
     </section>
-    
+    -->
 </div>
