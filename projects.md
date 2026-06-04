@@ -57,6 +57,28 @@ description: Open-source conservation technology projects
         </p>
       </div>
     </section>
+     <!-- SageBRUSH (image on left) -->
+    <section href="{{ '/sagebrush' | relative_url}}" 
+             class="project-section project-section--media-left" id="sagebrush" aria-labelledby="sagebrush-title">
+      <div class="project-media">
+        <img src="/assets/images/projects/sagebrush.jpg" alt="SageBRUSH Deployment" />
+      </div>
+      <div class="project-text" aria-labelledby="individual-id-title">
+        <h3 id="individual-id-title">SageBRUSH</h3>
+        <p class="muted">
+          A desktop application for Windows and Linux for AI-assisted re-identification of patterned animals. 
+        </p>
+        <p>
+          MatchyPatchy ingests either raw image/video files or a .csv list of images, calculates vector embeddings of the images, and 
+          presents the user with potential matches based on similarity of the vectors. MatchyPatchy can be used with a set of reference
+          images of named individuals, or from scratch on a set of data where no individuals are indentified yet. 
+        </p>
+        <br>
+        <p>
+          For more information, see: <a href="https://conservationtechlab.github.io/matchypatchy/">MatchyPatchy</a><br>
+        </p>
+      </div>
+    </section>
 <!--
     Environmental sensors (image on right) 
     <section class="project-section project-section--media-right" id="edge-ai" aria-labelledby="edge-ai-title">
