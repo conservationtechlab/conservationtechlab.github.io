@@ -35,9 +35,9 @@ description: Developing open-source technology and machine learning tools for wi
 <div class="container">
     <h2 class="section-title">Research Focus Areas</h2>
     <div class="projects-grid">
-        <!-- <a href="{{ '/projects' | relative_url}}#camera-traps" -->
+        <!--  -->
         <div class="project-card">
-            <h3>📷 Camera Trap AI</h3>
+            <h3><a href="{{ '/projects' | relative_url}}#animl">📷 Camera Trap AI</a></h3>
             <p class="project-description">
                 Machine learning models and tools for automatically classifying and analyzing wildlife in camera trap images and videos.
             </p>
@@ -56,9 +56,9 @@ description: Developing open-source technology and machine learning tools for wi
                 Tools for capturing and detecting wildlife sounds, and for building training data sets and training models.
             </p>
         </div>
-        <!-- <a href="{{ '/projects' | relative_url}}#individual-id" -->
+        <!--  -->
         <div class="project-card">
-            <h3>🐾 Individual ID</h3>
+            <h3><a href="{{ '/projects' | relative_url}}#individual-id">🐾 Individual ID</a></h3>
             <p class="project-description">
                 AI-powered systems for identifying individual animals using visual features.
             </p>
@@ -78,7 +78,7 @@ description: Developing open-source technology and machine learning tools for wi
             </p>
         </div>
     </div>
-    <h2 class="section-title">Featured Projects</h2>
+    <h2 class="section-title">Featured Project Repositories</h2>
     <div class="projects-grid">
         <!-- Animl R -->
         <div class="project-card">
