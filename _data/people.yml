@@ -37,8 +37,8 @@ lab:
   - id: Jim-Schechter
     name: Jim Schechter
     role: Researcher II
-    photo: 
-    bio: 
+    photo: https://sandiegozoo.box.com/shared/static/omydfh3nadqje99j7zuos22vzik0ff74.jpeg
+    bio: "Builds hardware and software for image and sound detection."
 
 fellows:
   - id: nikita-sharma
