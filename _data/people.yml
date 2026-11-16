@@ -34,11 +34,7 @@ lab:
     role: Research Coordinator II
     photo: https://sandiegozoo.box.com/shared/static/v9dtaq4ju4mcv409hlxrjqsasdylqlka.jpg
     bio: "Builds CVML tools for species recognition and individual identification."
-  - id: Jim-Schechter
-    name: Jim Schechter
-    role: Researcher II
-    photo: https://sandiegozoo.box.com/shared/static/omydfh3nadqje99j7zuos22vzik0ff74.jpeg
-    bio: "Builds hardware and software for image and sound detection."
+  
 
 fellows:
   - id: nikita-sharma
