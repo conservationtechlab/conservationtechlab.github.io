@@ -41,6 +41,10 @@ lab:
     bio: "Builds hardware and software for image and sound detection."
 
 fellows:
+- id: mauro-malekshamran
+    name: Mauro Malekshamran 
+    role: CTL Fellow (2026-2027)
+    photo: https://sandiegozoo.box.com/shared/static/ha0pjuiw7juoiikl9j7s7jwuu3kxwx0k.jpg
   - id: nikita-sharma
     name: Nikita Sharma
     role: CTL Fellow (2026)
@@ -65,7 +69,7 @@ fellows:
     name: Montserrat Jara 
     role: CTL Fellow (2026)
     photo: https://sandiegozoo.box.com/shared/static/86mxdx9a3k3xzgj3vjz9dqfpp69p4l5t.jpg
-
+  
 volunteers:
   - id: robert-krenz
     name: Robert Krenz
