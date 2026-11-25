@@ -41,7 +41,7 @@ lab:
     bio: "Builds hardware and software for image and sound detection."
 
 fellows:
-- id: mauro-malekshamran
+  - id: mauro-malekshamran
     name: Mauro Malekshamran 
     role: CTL Fellow (2026-2027)
     photo: https://sandiegozoo.box.com/shared/static/ha0pjuiw7juoiikl9j7s7jwuu3kxwx0k.jpg
