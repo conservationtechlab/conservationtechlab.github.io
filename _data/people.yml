@@ -37,31 +37,15 @@ lab:
   
 
 fellows:
+  - id: mauro-malekshamran
+    name: Mauro Malekshamran 
+    role: CTL Fellow (2026-2027)
+    photo: https://sandiegozoo.box.com/shared/static/ha0pjuiw7juoiikl9j7s7jwuu3kxwx0k.jpg
   - id: nikita-sharma
     name: Nikita Sharma
     role: CTL Fellow (2026)
     photo: https://sandiegozoo.box.com/shared/static/mpqsieni7pugj4s9501ae1imkd6b1ox0.jpg
-  - id: raine-wen
-    name: Raine Wen
-    role: CTL Summer Fellow (2026)
-    photo: https://sandiegozoo.box.com/shared/static/qvom5laxhhwn3fu2aucyv2x906p2yvxi.jpg
-  - id: ellina-ho
-    name: Ellina Ho
-    role: CTL Summer Fellow (2026)
-    photo: https://sandiegozoo.box.com/shared/static/3d0vty1qmabpn21ld5pvit075hjtwt46.jpeg
-  - id: siddhi-amilkanthwar
-    name: Siddhi Amilkanthwar 
-    role: CTL Fellow (2025-2026)
-    photo: https://sandiegozoo.box.com/shared/static/fitdnkhs28fhv4a3314db4cydhfr3n1b.png
-  - id: akhil-nallacheruvu
-    name: Akhil Nallacheruvu 
-    role: CTL Fellow (2026)
-    photo: https://sandiegozoo.box.com/shared/static/s7slw23ql0t2geitrznrz9ojeer8ubnj.jpeg
-  - id: montserrat-jara
-    name: Montserrat Jara 
-    role: CTL Fellow (2026)
-    photo: https://sandiegozoo.box.com/shared/static/86mxdx9a3k3xzgj3vjz9dqfpp69p4l5t.jpg
-
+  
 volunteers:
   - id: robert-krenz
     name: Robert Krenz
@@ -76,6 +60,26 @@ volunteers:
     name: Jay Forristal
 
 former_members:
+  - id: raine-wen
+    name: Raine Wen
+    role: Summer Fellow (2026)
+
+  - id: ellina-ho
+    name: Ellina Ho
+    role: Summer Fellow (2026)
+
+  - id: siddhi-amilkanthwar
+    name: Siddhi Amilkanthwar 
+    role: CTL Fellow (2025-2026)
+
+  - id: akhil-nallacheruvu
+    name: Akhil Nallacheruvu 
+    role: CTL Fellow (2026)
+
+  - id: montserrat-jara
+    name: Montserrat Jara 
+    role: CTL Fellow (2026)
+
   - id: chandrima-das
     name: Chandrima Das
     role: CTL Fellow (2025-2026)
